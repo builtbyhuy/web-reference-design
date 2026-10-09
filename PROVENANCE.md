@@ -23,11 +23,13 @@ No upstream code or playbook is copied into the package. Existing installed comp
 
 ## Distributed example materials
 
-FIELDNOTE's HTML/CSS/JavaScript, copy and `assets/spatial-study.svg` are original MIT-licensed materials. Its studio and intentionally defective before fixture are fictional. System font fallbacks redistribute no font files. Norm Architects, Utopia and GOV.UK supplied inspected mechanisms, not copied identity, photography, fonts or source; the [example brief](examples/fieldnote/brief.md) records those decisions.
+FIELDNOTE's HTML/CSS/JavaScript and copy are original MIT-licensed materials. Its studio and intentionally defective before fixture are fictional. The revised `assets/courtyard-study.webp` is an original AI-generated conceptual architectural visualization, supplied under the repository's MIT terms and explicitly identified on the page; it is not a delivered client project. The earlier original `assets/spatial-study.svg` remains unused. The self-hosted, unmodified Manrope variable font comes from the official [Google Fonts family source](https://github.com/google/fonts/tree/main/ofl/manrope) and retains its actual SIL Open Font License 1.1 and copyright notice in [manrope-OFL.txt](examples/fieldnote/assets/manrope-OFL.txt), checked 9 October 2026. MIT does not relicense that font. Groth Studio and HUTS supplied live-inspected composition/typography/mobile mechanisms; Utopia and GOV.UK supplied type/recovery guidance. Their identity, photos, copy and source are not incorporated. The [example brief](examples/fieldnote/brief.md) records decisions and generation provenance; [asset notices](examples/fieldnote/assets/README.md) identify distributed material.
 
 Spoke Workshop includes the separately licensed Pexels photograph by Rehook Bike, credited in its [README](examples/spoke-workshop/README.md) and footer. The photograph is used within a fictional website example, not distributed as a stock-image collection. Linked and distributed third-party assets retain their own terms; the package's MIT grant covers original instructions and code.
 
 ## Selected official license references
+
+The landing-page revision followed the supplied library to [Curated](https://curated.design/), [Superset](https://superset.sh/), [Proof](https://proofeditor.ai/) and [Shotbase](https://shotbase.com/), inspected live at 1440 and 390px on 9 October 2026. Useful mechanisms were a prominent inspectable output, short action-led copy, selected comparison controls and a mobile composition. The white/cobalt identity and code are newly authored; no reference website screenshots, brand assets, testimonials or source code are distributed. The landing page uses the same self-hosted Manrope asset and actual FIELDNOTE captures, with matched before/after sizing and explicit fictional context.
 
 Examples checked during method research; check again when incorporating a specific asset or component:
 

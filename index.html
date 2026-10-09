@@ -3,48 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web Reference Design — make the page feel finished</title>
-  <meta name="description" content="A portable MIT-licensed skill for improving existing websites with useful references, preserved identity and rendered review. Explore runnable before and after examples.">
-  <meta name="theme-color" content="#eeeae0">
-  <style>
-    :root{--paper:#eeeae0;--ink:#202a24;--muted:#566057;--line:#c8ccc2;--accent:#b33420}
-    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-underline-offset:4px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.skip{position:absolute;top:-100px;left:24px;background:var(--ink);color:white;padding:12px;z-index:2}.skip:focus{top:12px}
-    .wrap{width:min(1400px,calc(100% - 96px));margin:auto}header{display:flex;align-items:center;justify-content:space-between;padding:27px 0;border-bottom:1px solid var(--line);gap:24px}.brand{display:flex;gap:14px;align-items:center;font-weight:700;text-decoration:none;line-height:1.25}.mark{display:grid;place-items:center;border:1px solid var(--ink);width:40px;height:40px;font-family:Georgia,serif;font-size:28px}.brand small{display:block;color:var(--muted);font-weight:400;font-size:12px}nav{display:flex;gap:25px;font-size:14px}.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-family:monospace;margin:0 0 25px}
-    .intro{padding:76px 0 63px;display:grid;grid-template-columns:1.4fr 1fr;gap:72px;align-items:end}h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(52px,6.3vw,96px);font-weight:400;line-height:.98;letter-spacing:-.055em;margin:0}h1 em{font-weight:400;color:var(--accent)}.lede{font-size:18px;max-width:40ch;margin:0 0 28px;color:var(--muted)}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 18px;background:var(--ink);color:var(--paper);text-decoration:none;font-size:14px;border:1px solid var(--ink)}.button.secondary{background:transparent;color:var(--ink)}
-    .showcase{background:#dce0d4;border:1px solid #b6bdaf;padding:28px;display:grid;grid-template-columns:1.65fr 1fr;gap:28px;align-items:start}.window{background:#fff;border:1px solid #a7b09f;box-shadow:0 9px 25px #2633210c}.bar{display:flex;justify-content:space-between;gap:15px;padding:11px 15px;background:#f5f6f0;border-bottom:1px solid #cbd0c4;font-size:11px;font-family:monospace}.dot{font-size:13px;color:var(--accent)}.window img{width:100%;height:auto;display:block;aspect-ratio:1.5;object-fit:cover;object-position:top}.before{margin-top:42px}.caption{font-size:12px;color:var(--muted);margin:14px 0 0}.caption strong{color:var(--ink)}
-    .meta{display:flex;justify-content:space-between;gap:32px;padding:18px 0;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}.section{padding:76px 0}.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px}h2{font-family:Georgia,serif;font-size:clamp(32px,3.1vw,48px);font-weight:400;line-height:1.15;letter-spacing:-.025em;margin:0 0 33px}.num{font-family:monospace;font-size:11px;color:var(--accent)}h3{font-size:19px;line-height:1.4;font-weight:500;margin:12px 0}.grid p{color:var(--muted);font-size:15px;margin:0}.install{padding:45px;border:1px solid var(--line);display:grid;grid-template-columns:1fr 1.4fr;gap:60px;background:#f7f4eb}.install h2{margin-bottom:16px}.install p{max-width:40ch;font-size:15px;color:var(--muted)}pre{margin:0;background:var(--ink);color:#f1eee3;padding:24px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.7 ui-monospace,Consolas,monospace}.note{font-size:12px;color:var(--muted);max-width:85ch;margin-top:24px}footer{padding:25px 0 40px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;color:var(--muted);font-size:12px}.other{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:25px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:50px}.other p{margin:0;font-size:14px;color:var(--muted)}
-    @media(max-width:900px){.wrap{width:calc(100% - 48px)}.intro{gap:35px;padding-top:52px;grid-template-columns:1fr}.lede{max-width:55ch}.showcase{padding:16px;gap:16px}.before{margin-top:30px}.grid{gap:22px}.install{grid-template-columns:1fr;gap:20px;padding:28px}.meta{flex-wrap:wrap;gap:12px}.section{padding:52px 0}}
-    @media(max-width:560px){.wrap{width:calc(100% - 32px)}header{padding:20px 0;gap:14px}nav{gap:14px;font-size:12px}.brand{font-size:13px;gap:9px}.mark{width:33px;height:33px}.brand small{font-size:10px}.intro{padding:40px 0 35px;gap:24px}h1{font-size:58px}.lede{font-size:16px}.showcase{grid-template-columns:1fr}.before{margin-top:12px}.grid{grid-template-columns:1fr;gap:28px}.bar{font-size:10px}.install{padding:20px}pre{padding:18px;font-size:12px}footer,.other{flex-direction:column;align-items:flex-start;gap:12px}}
-  </style>
+  <title>Web Reference Design — give your agent a design direction</title>
+  <meta name="description" content="A portable design skill for coding agents. Turn useful references into layout, typography and interactions on your existing page. Inspect runnable examples and install for free.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="examples/fieldnote/assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="showcase.css">
+  <script src="showcase.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="wrap">
-    <header>
-      <a class="brand" href="./" aria-label="Web Reference Design home"><span class="mark" aria-hidden="true">w</span><span>Web Reference Design<small>A skill by builtbyhuy</small></span></a>
-      <nav aria-label="Main navigation"><a href="#install">Get the skill</a><a href="https://github.com/builtbyhuy/web-reference-design">GitHub ↗</a></nav>
-    </header>
-    <main id="main" tabindex="-1">
-      <section class="intro" aria-labelledby="title">
-        <div><p class="eyebrow">Useful references / deliberate interfaces</p><h1 id="title">Make the page<br>feel <em>finished.</em></h1></div>
-        <div><p class="lede">Give your coding agent a clearer direction. Improve the page you already have, keep what works, and check the result where people use it.</p><div class="actions"><a class="button" href="examples/fieldnote/">Explore the after ↗</a><a class="button secondary" href="examples/fieldnote/before/">Open the before ↗</a></div></div>
-      </section>
-      <section class="showcase" aria-label="Matched before and after captures of the FIELDNOTE example">
-        <div><div class="window"><div class="bar"><span><span class="dot" aria-hidden="true">●</span> FIELDNOTE / after</span><span>1440 × 960</span></div><a href="examples/fieldnote/" aria-label="Open the refined FIELDNOTE example"><img src="examples/fieldnote/evidence/after-desktop.png" width="1440" height="960" alt="Refined FIELDNOTE page with editorial typography, an architectural illustration and a clear enquiry action"></a></div><p class="caption"><strong>A resolved direction.</strong> Responsive layout and an enquiry preview that preserves input.</p></div>
-        <div class="before"><div class="window"><div class="bar"><span>FIELDNOTE / before</span><span>1440 × 960</span></div><a href="examples/fieldnote/before/" aria-label="Open the intentionally defective FIELDNOTE before example"><img src="examples/fieldnote/evidence/before-desktop.png" width="1440" height="960" alt="The intentionally defective starting version of the same FIELDNOTE page"></a></div><p class="caption">Same fictional studio, content and local-preview boundary. The starting fixture intentionally contains defects.</p></div>
-      </section>
-      <div class="meta"><span>Plain Markdown skill · optional Python lookup</span><span>75 resources / 25 categories</span><span>Original instructions & code / MIT</span></div>
-      <section class="section" aria-labelledby="workflow"><p class="eyebrow">Start with a concrete change</p><h2 id="workflow">Reference → decision → running page.</h2><div class="grid"><div><span class="num">01 / FIND THE USEFUL PART</span><h3>Choose for the task.</h3><p>Use your library or the bundled catalog. Inspect a reference that fits the page, stack and content, then identify what it actually contributes.</p></div><div><span class="num">02 / BRING IT INTO THE CODE</span><h3>Keep the identity.</h3><p>Turn layout, type and interaction choices into the requested change. Preserve established branding, facts and working behavior.</p></div><div><span class="num">03 / LOOK AND USE IT</span><h3>Finish the affected flow.</h3><p>Review the running desktop and mobile page with realistic content and important states. Name anything you could not verify.</p></div></div></section>
-      <section class="install" id="install" aria-labelledby="install-title"><div><p class="eyebrow">Bring your own coding agent</p><h2 id="install-title">One folder.<br>A concrete brief.</h2><p>Copy the skill folder into your agent's supported skills directory. Use your existing project and tools.</p><a href="https://github.com/builtbyhuy/web-reference-design/releases/latest">Download the release ↗</a> · <a href="https://github.com/builtbyhuy/web-reference-design#install">Read installation steps</a></div><pre>Use $web-reference-design to improve this page.
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Web Reference Design home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Web Reference<br>Design</span></a>
+    <nav aria-label="Main navigation"><a href="https://github.com/builtbyhuy/web-reference-design">GitHub <span aria-hidden="true">↗</span></a><a class="nav-install" href="#install">Get the skill <span aria-hidden="true">↓</span></a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="intro-label">A design skill for coding agents</p>
+        <h1 id="title">Give your agent<br>a clear direction.</h1>
+        <p class="lede">Turn useful references into layout, typography and interactions for the page you already have.</p>
+        <div class="hero-actions"><a class="button" href="#install">Get the skill <span aria-hidden="true">↓</span></a><a class="text-link" href="examples/fieldnote/">Try the live demo <span aria-hidden="true">↗</span></a></div>
+        <p class="availability">Free &amp; open source. Bring your own coding agent.</p>
+      </div>
+      <div class="specimen" id="example">
+        <div class="specimen-heading"><p><strong>FIELDNOTE</strong><span>An existing-page redesign</span></p><a href="examples/fieldnote/" aria-label="Open the live FIELDNOTE demo"><span aria-hidden="true">↗</span></a></div>
+        <div class="specimen-controls" hidden>
+          <div class="segments" role="group" aria-label="Example version"><button type="button" data-version="before" aria-pressed="false">Before</button><button type="button" data-version="after" aria-pressed="true">After</button></div>
+          <div class="segments devices" role="group" aria-label="Example viewport"><button type="button" data-device="desktop" aria-pressed="true">Desktop</button><button type="button" data-device="mobile" aria-pressed="false">Mobile</button></div>
+        </div>
+        <div class="specimen-stage" data-view="desktop">
+          <a id="specimen-open" class="specimen-link" href="examples/fieldnote/" aria-label="Open the live after example">
+            <picture><source id="mobile-source" media="(max-width:760px)" srcset="examples/fieldnote/evidence/after-mobile.png"><img id="specimen-image" src="examples/fieldnote/evidence/after-desktop.png" width="1440" height="960" fetchpriority="high" alt="FIELDNOTE after redesign at desktop width: a spacious architectural image, large sans-serif heading and enquiry action."></picture>
+          </a>
+        </div>
+        <div class="specimen-caption"><span id="specimen-description">After · responsive capture</span><a id="specimen-capture" href="examples/fieldnote/evidence/after-desktop.png">Full-size capture <span aria-hidden="true">↗</span></a></div>
+        <noscript><p class="example-notice"><a href="examples/fieldnote/evidence/after-mobile.png">Open the mobile capture</a></p></noscript>
+        <p class="example-notice">Fictional studio. AI-generated concept image. The before fixture deliberately contains defects; the form creates a local preview.</p>
+      </div>
+    </section>
+    <section class="decisions wrap" aria-labelledby="decisions-title">
+      <div class="decisions-intro"><p class="section-label">Look closer</p><h2 id="decisions-title">The reference is<br>just the beginning.</h2><p>Choose the useful part. Make a decision. Follow it through the running page.</p><a class="text-link" href="https://github.com/builtbyhuy/web-reference-design/blob/main/examples/fieldnote/brief.md">Read this example’s design decisions <span aria-hidden="true">↗</span></a></div>
+      <div class="decision-list">
+        <article><h3>Let the subject lead.</h3><p>A full-width architectural study makes space, light and material the first thing you see. The crop is recomposed for mobile.</p></article>
+        <article><h3>Give every element a role.</h3><p>A clear type hierarchy, quieter supporting copy and a distinct enquiry section help the page read as one coherent design.</p></article>
+        <article><h3>Finish the interaction.</h3><p>Required-field errors retain your input. You can preview, edit and return by keyboard. Try it in the live example.</p></article>
+      </div>
+    </section>
+    <section class="install-section" id="install" aria-labelledby="install-title">
+      <div class="install wrap">
+        <div class="install-copy"><p class="section-label">Make it part of your workflow</p><h2 id="install-title">One skill.<br>Your next page.</h2><ol><li>Download and extract the skill folder.</li><li>Copy it into your agent’s skills directory.</li><li>Open your project and give it a concrete brief.</li></ol><div class="install-actions"><a class="button button-light" href="https://github.com/builtbyhuy/web-reference-design/releases/latest">Download the skill <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/builtbyhuy/web-reference-design#install">Installation guide <span aria-hidden="true">↗</span></a></div><p class="install-detail">Plain Markdown · 75 reference links · Optional Python lookup<br>No hosted service required.</p></div>
+        <div class="prompt"><div class="prompt-heading"><span>Start with this brief</span><button id="copy-prompt" type="button" hidden>Copy prompt <span aria-hidden="true">↗</span></button></div><pre id="agent-prompt" tabindex="0">Use $web-reference-design to improve this page.
 
 Keep its brand, content, stack and working behavior.
-Use the supplied reference to refine the layout
-and typography. Implement the change, check mobile
-and the affected states, and report actual checks.</pre></section>
-      <p class="note">FIELDNOTE is an original fictional example, not a customer case. Its form creates a local preview and sends nothing. Tests and screenshots support the specific recorded checks; they do not establish universal design improvement or a complete accessibility audit. <a href="https://github.com/builtbyhuy/web-reference-design/blob/main/VALIDATION.md">Read the evidence and limits.</a></p>
-      <div class="other"><div><strong>Also explore Spoke Workshop.</strong><p>A separate new-page example with a service comparison and appointment-preview flow.</p></div><a href="examples/spoke-workshop/">Open the example ↗</a></div>
-    </main>
-    <footer><span>Made by <a href="https://github.com/builtbyhuy">Hồ Khắc Huy</a></span><span>Seed collection curated by Lê Huy Thái · <a href="https://github.com/builtbyhuy/web-reference-design/blob/main/PROVENANCE.md">Sources & attribution</a></span></footer>
-  </div>
+Inspect a reference that fits the task. Translate
+its useful parts into layout, type and interactions.
+
+Implement the change, review desktop and mobile,
+and check the affected states. Report actual checks.</pre><p id="copy-status" role="status" aria-live="polite"></p><p class="prompt-note">Works with agents that support SKILL.md. Use your own reference library or the included catalog.</p></div>
+      </div>
+    </section>
+    <section class="second-example wrap" aria-labelledby="other-title"><div><p class="section-label">A different subject. A different direction.</p><h2 id="other-title">Spoke Workshop</h2><p>Explore a bicycle repair page with a service comparison and appointment preview.</p></div><a class="button button-outline" href="examples/spoke-workshop/">Open the example <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="wrap"><div><a class="footer-brand" href="https://github.com/builtbyhuy">Built by Huy <span aria-hidden="true">↗</span></a><p>Original instructions &amp; code: MIT. Manrope: SIL OFL.</p></div><div class="footer-links"><a href="https://github.com/builtbyhuy/web-reference-design/blob/main/VALIDATION.md">Checks &amp; limits</a><a href="https://github.com/builtbyhuy/web-reference-design/blob/main/PROVENANCE.md">Sources &amp; credits</a><span>Seed collection curated by Lê Huy Thái</span></div></footer>
 </body>
 </html>

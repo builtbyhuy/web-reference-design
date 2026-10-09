@@ -1,0 +1,103 @@
+{
+  "observedUtc": "2026-10-09T09:41:05.3269701Z",
+  "method": "Chromium raster background with foreground hero text set transparent, sampled actual text-line Range rectangles including inter-letter background",
+  "scope": "Static self-hosted hero image and current overlays only, white foreground; not glyph masking, full WCAG certification or arbitrary replacement images",
+  "records": [
+    {
+      "width": 1440,
+      "selector": ".discipline",
+      "fontSize": "11px",
+      "conservativeRectangleMinimum": 15.96
+    },
+    {
+      "width": 1440,
+      "selector": "#hero-title",
+      "fontSize": "110.16px",
+      "conservativeRectangleMinimum": 3.5
+    },
+    {
+      "width": 1440,
+      "selector": ".hero-description",
+      "fontSize": "14px",
+      "conservativeRectangleMinimum": 13.43
+    },
+    {
+      "width": 1440,
+      "selector": ".text-action",
+      "fontSize": "13px",
+      "conservativeRectangleMinimum": 12.89
+    },
+    {
+      "width": 768,
+      "selector": ".discipline",
+      "fontSize": "11px",
+      "conservativeRectangleMinimum": 12.02
+    },
+    {
+      "width": 768,
+      "selector": "#hero-title",
+      "fontSize": "83px",
+      "conservativeRectangleMinimum": 5.25
+    },
+    {
+      "width": 768,
+      "selector": ".hero-description",
+      "fontSize": "14px",
+      "conservativeRectangleMinimum": 15.06
+    },
+    {
+      "width": 768,
+      "selector": ".text-action",
+      "fontSize": "13px",
+      "conservativeRectangleMinimum": 13.3
+    },
+    {
+      "width": 390,
+      "selector": ".discipline",
+      "fontSize": "10px",
+      "conservativeRectangleMinimum": 6.44
+    },
+    {
+      "width": 390,
+      "selector": "#hero-title",
+      "fontSize": "52.26px",
+      "conservativeRectangleMinimum": 6.86
+    },
+    {
+      "width": 390,
+      "selector": ".hero-description",
+      "fontSize": "13px",
+      "conservativeRectangleMinimum": 9.47
+    },
+    {
+      "width": 390,
+      "selector": ".text-action",
+      "fontSize": "12px",
+      "conservativeRectangleMinimum": 16.28
+    },
+    {
+      "width": 320,
+      "selector": ".discipline",
+      "fontSize": "10px",
+      "conservativeRectangleMinimum": 6.56
+    },
+    {
+      "width": 320,
+      "selector": "#hero-title",
+      "fontSize": "46px",
+      "conservativeRectangleMinimum": 6.86
+    },
+    {
+      "width": 320,
+      "selector": ".hero-description",
+      "fontSize": "13px",
+      "conservativeRectangleMinimum": 9.36
+    },
+    {
+      "width": 320,
+      "selector": ".text-action",
+      "fontSize": "12px",
+      "conservativeRectangleMinimum": 16.31
+    }
+  ]
+}

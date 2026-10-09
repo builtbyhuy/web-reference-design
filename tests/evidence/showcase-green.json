@@ -1,0 +1,146 @@
+{
+  "started": "2026-10-09T09:51:03.624Z",
+  "checks": [
+    {
+      "name": "Initial 1440px view shows genuine desktop after capture",
+      "status": "passed"
+    },
+    {
+      "name": "Initial 390px view shows genuine mobile after capture",
+      "status": "passed"
+    },
+    {
+      "name": "Initial 320px view shows genuine mobile after capture",
+      "status": "passed"
+    },
+    {
+      "name": "Version and device controls keep capture and live link in sync",
+      "status": "passed"
+    },
+    {
+      "name": "Comparison operates with keyboard and visible focus",
+      "status": "passed"
+    },
+    {
+      "name": "Comparison and copy controls have practical mobile touch targets",
+      "status": "passed"
+    },
+    {
+      "name": "Copy prompt places the complete displayed brief on the clipboard",
+      "status": "passed"
+    },
+    {
+      "name": "Denied clipboard keeps the prompt available and explains manual copy",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 1024px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "Root media and fonts load without a broken local request",
+      "status": "passed"
+    },
+    {
+      "name": "Core demo and installation remain usable with JavaScript disabled",
+      "status": "passed"
+    },
+    {
+      "name": "Important comparison states have no automated accessibility violations",
+      "status": "passed"
+    },
+    {
+      "name": "Observed interactions cause no JavaScript page errors",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "failedMedia": [],
+  "limits": [
+    "Chromium emulation; no physical mobile or Safari/Firefox.",
+    "Automated behavior and accessibility checks do not establish visual quality or complete accessibility."
+  ],
+  "environment": {
+    "node": "v24.19.0",
+    "browser": "154.0.8037.98",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "reducedMotion": "reduce"
+  },
+  "clipboard": {
+    "readFromNativeClipboard": true,
+    "lineEndingNormalization": "CRLF to LF only",
+    "charactersAfterNormalization": 307
+  },
+  "axe": [
+    {
+      "width": 1440,
+      "version": "after",
+      "device": "desktop",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".nav-install > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button[href$=\"#install\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button-light > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "version": "before",
+      "device": "mobile",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".nav-install > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button[href$=\"#install\"] > span[aria-hidden=\"true\"]"
+            ],
+            [
+              ".button-light > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "finished": "2026-10-09T09:51:06.932Z",
+  "passed": 17,
+  "failed": 0,
+  "status": "passed"
+}

@@ -19,6 +19,14 @@ Use real content lengths and required language characters. Look for clipped head
 - Text/background contrast and hierarchy hold in the actual rendered states. Automated accessibility findings supplement manual checks; document material unresolved findings.
 - The composition, type, imagery and rhythm match the selected direction. Check the full page rather than declaring success from one thumbnail.
 
+## Critique before calling it finished
+
+Separate behavior from visual judgment. Passing tests cannot resolve weak typography, generic composition, irrelevant media or a missing subject-specific direction. Name the strongest remaining mismatch and fix it; do not substitute an internal score for looking at the page.
+
+Inspect the actual narrow-screen composition. A desktop screenshot scaled into a phone is not a mobile review. For before/after evidence, use the same viewport and comparable content/state, present both at the same scale, and label synthetic fixtures honestly.
+
+Check the important details at readable size: line breaks, supporting copy, image crop, action emphasis, disclosures, errors and focus. Decorative labels or numbering should explain something. If the page mainly resembles your last default theme, return to this audience's content and the specific reference decisions.
+
 ## Honest handoff
 
 Report the usable result, actual checks and material limits. Keep license/attribution records for incorporated assets. Do not claim professional quality, conversion lift or performance gains solely from a render, benchmark on unrelated work or an agent's review score. If an integration, browser state or device could not be verified, name that specific gap.

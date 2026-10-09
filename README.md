@@ -75,6 +75,8 @@ python -m unittest discover -s tests -v
 npm test
 ```
 
+To preview the landing page and both examples locally, run `node tests/server.cjs` and open `http://127.0.0.1:4180/`. The showcase checks exercise the before/after and viewport controls, keyboard operation, genuine mobile captures and real clipboard success/denial. `SHOWCASE_BROWSER_EXECUTABLE`, `SHOWCASE_PLAYWRIGHT_MODULE`, `SHOWCASE_AXE_PATH` and `SHOWCASE_EVIDENCE_DIR` select existing tools and a report directory; defaults use project dependencies and OS temporary storage.
+
 Windows hosts with a Python launcher can use `py -3` instead of `python`. Existing Playwright/browser installations can also be selected through the environment settings documented in each example. [Validation](VALIDATION.md) distinguishes lookup tests, agent decision scenarios, browser behavior and visual review.
 
 ## Contribute a useful correction
@@ -83,7 +85,7 @@ Include the actual task, the reference or current behavior, a reproducible failu
 
 ## License and provenance
 
-Original instructions, helper code and original example code/artwork are [MIT licensed](LICENSE). The Spoke photograph and linked resources retain their own terms; see [provenance](PROVENANCE.md) and the example credits.
+Original instructions, helper code and original example code/artwork are [MIT licensed](LICENSE). The AI-generated architectural concept is identified as a fictional study. The distributed Manrope font retains its SIL Open Font License; the Spoke photograph and linked resources retain their own terms. See [provenance](PROVENANCE.md) and the example credits.
 
 The seed resource collection was curated by **Lê Huy Thái** in [this Facebook post](https://www.facebook.com/lehuythaidotcom/posts/pfbid02d6XtgyvmyxisPFKcXiD5cdyWkr2j17smJABCEdnoG6UxSemUmywscJtBWxmeXWdAl). This package includes resource links, category labels and newly written summaries, with attribution. It does not redistribute the original narrative post text or images or imply endorsement.
 

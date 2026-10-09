@@ -3,7 +3,7 @@ name: web-reference-design
 description: Use a curated web reference library to design, build or refine a website or web app. Select task-relevant layout, component, typography, asset and interaction references, translate inspected examples into an intentional implementation, and verify the rendered result. Use when visual direction or reference selection matters; skip backend-only work and trivial copy edits.
 license: MIT; external resources retain their own terms
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Web Reference Design

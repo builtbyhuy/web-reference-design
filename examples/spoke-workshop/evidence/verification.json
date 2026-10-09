@@ -1,5 +1,5 @@
 {
-  "started": "2026-10-09T03:24:40.609Z",
+  "started": "2026-10-09T09:49:04.375Z",
   "checks": [
     "Local repair photo loaded at natural width 1600px",
     "Keyboard first Tab shows skip link; Enter focuses main",
@@ -15,8 +15,8 @@
     "Edit restores form, preserves submitted values, and focuses name",
     "Reduced motion disables smooth scrolling and transitions",
     "No external request and no web-storage write during local appointment flow",
-    "No JavaScript page errors",
-    "Keyboard traverses name, email, service, native date, notes and submit; visible submit focus; Enter submits and error-link Enter returns to name"
+    "Keyboard traverses name, email, service, native date, notes and submit; visible submit focus; Enter submits and error-link Enter returns to name",
+    "No JavaScript page errors"
   ],
   "errors": [],
   "scans": [
@@ -204,46 +204,12 @@
   ],
   "requests": [],
   "browser": {
-    "version": "154.0.4258.62",
-    "channel": "msedge",
+    "version": "154.0.8037.98",
+    "channel": "custom-executable",
+    "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
     "viewport": "1440x960, 768x1024, 390x844, 320x760",
     "reducedMotion": "reduce"
   },
   "status": "passed",
-  "finished": "2026-10-09T03:24:44.433Z",
-  "manual_review": {
-    "palette_contrast": {
-      "ink_on_paper": 13.34,
-      "muted_on_paper": 5.8,
-      "ink_on_lime": 10.67,
-      "error_on_paper": 6.37
-    },
-    "caption_background": [
-      {
-        "width": 1440,
-        "caption": "caption",
-        "minimum_contrast_over_entire_text_box": 11.21,
-        "required_ratio": 3
-      },
-      {
-        "width": 1440,
-        "caption": "photo-label",
-        "minimum_contrast_over_entire_text_box": 13.53,
-        "required_ratio": 4.5
-      },
-      {
-        "width": 390,
-        "caption": "caption",
-        "minimum_contrast_over_entire_text_box": 8.52,
-        "required_ratio": 3
-      },
-      {
-        "width": 390,
-        "caption": "photo-label",
-        "minimum_contrast_over_entire_text_box": 10.0,
-        "required_ratio": 4.5
-      }
-    ],
-    "review": "Viewed desktop hero, service comparison, appointment form, complete desktop/mobile pages, phone error and preview. Replaced unsupported generic ARIA naming with semantic section/region; rechecked 5 axe states. Remaining incomplete items are decorative glyphs and image/pseudo-element contrast; palette and image-background measurements above supplement the visible inspection. No screen-reader or real-device certification claimed."
-  }
+  "finished": "2026-10-09T09:49:08.534Z"
 }

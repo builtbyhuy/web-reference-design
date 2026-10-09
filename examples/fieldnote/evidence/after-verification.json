@@ -1,6 +1,6 @@
 {
   "variant": "after",
-  "started": "2026-10-09T09:02:37.457Z",
+  "started": "2026-10-09T09:41:56.143Z",
   "checks": [
     {
       "name": "No horizontal page overflow at 1440px",
@@ -87,7 +87,19 @@
           "id": "color-contrast",
           "targets": [
             [
-              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+              ".discipline"
+            ],
+            [
+              "#hero-title"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".text-action"
+            ],
+            [
+              "footer > a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -101,7 +113,19 @@
           "id": "color-contrast",
           "targets": [
             [
-              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+              ".discipline"
+            ],
+            [
+              "#hero-title"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".text-action"
+            ],
+            [
+              "footer > a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -115,7 +139,19 @@
           "id": "color-contrast",
           "targets": [
             [
-              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+              ".discipline"
+            ],
+            [
+              "#hero-title"
+            ],
+            [
+              ".hero-description"
+            ],
+            [
+              ".text-action"
+            ],
+            [
+              "footer > a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
             ]
           ]
         }
@@ -123,7 +159,7 @@
     }
   ],
   "status": "passed",
-  "finished": "2026-10-09T09:02:40.736Z",
+  "finished": "2026-10-09T09:42:02.300Z",
   "passed": 15,
   "failed": 0,
   "limits": [
@@ -132,7 +168,7 @@
     "No sending integration, real studio outcome or measured conversion/agent comparison."
   ],
   "manualReview": [
-    "Desktop/mobile composition and error/preview pixels inspected.",
-    "Remaining axe contrast incomplete is the decorative aria-hidden footer arrow; inherited #292823 on #ece8dd is 12.06:1, checked separately."
+    "Desktop/mobile composition and error/preview pixels inspected separately from automated behavior checks.",
+    "Axe leaves hero text over the raster image and the decorative footer arrow incomplete. Hero background rectangles were checked separately at 1440, 768, 390 and 320px; details and scope are in brief.md. No complete accessibility certification is implied."
   ]
 }

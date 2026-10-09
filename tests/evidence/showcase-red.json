@@ -1,0 +1,106 @@
+{
+  "started": "2026-10-09T09:41:13.321Z",
+  "checks": [
+    {
+      "name": "Initial 1440px view shows genuine desktop after capture",
+      "status": "failed",
+      "reason": "Expected one usable #specimen-image\n\n0 !== 1\n"
+    },
+    {
+      "name": "Initial 390px view shows genuine mobile after capture",
+      "status": "failed",
+      "reason": "Expected one usable #specimen-image\n\n0 !== 1\n"
+    },
+    {
+      "name": "Initial 320px view shows genuine mobile after capture",
+      "status": "failed",
+      "reason": "Expected one usable #specimen-image\n\n0 !== 1\n"
+    },
+    {
+      "name": "Version and device controls keep capture and live link in sync",
+      "status": "failed",
+      "reason": "Expected one usable [data-version=\"before\"]\n\n0 !== 1\n"
+    },
+    {
+      "name": "Comparison operates with keyboard and visible focus",
+      "status": "failed",
+      "reason": "Expected one usable [data-version=\"before\"]\n\n0 !== 1\n"
+    },
+    {
+      "name": "Comparison and copy controls have practical mobile touch targets",
+      "status": "failed",
+      "reason": "Expected one usable [data-version=\"before\"]\n\n0 !== 1\n"
+    },
+    {
+      "name": "Copy prompt places the complete displayed brief on the clipboard",
+      "status": "failed",
+      "reason": "Expected one usable #agent-prompt\n\n0 !== 1\n"
+    },
+    {
+      "name": "Denied clipboard keeps the prompt available and explains manual copy",
+      "status": "failed",
+      "reason": "Expected one usable #copy-prompt\n\n0 !== 1\n"
+    },
+    {
+      "name": "No horizontal page overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 1024px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "Root media and fonts load without a broken local request",
+      "status": "passed"
+    },
+    {
+      "name": "Core demo and installation remain usable with JavaScript disabled",
+      "status": "failed",
+      "reason": "Expected one usable #specimen-image\n\n0 !== 1\n"
+    },
+    {
+      "name": "Important comparison states have no automated accessibility violations",
+      "status": "failed",
+      "reason": "Expected one usable [data-version=\"after\"]\n\n0 !== 1\n"
+    },
+    {
+      "name": "Observed interactions cause no JavaScript page errors",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "failedMedia": [],
+  "limits": [
+    "Chromium emulation; no physical mobile or Safari/Firefox.",
+    "Automated behavior and accessibility checks do not establish visual quality or complete accessibility."
+  ],
+  "environment": {
+    "node": "v24.19.0",
+    "browser": "154.0.8037.98",
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "reducedMotion": "reduce"
+  },
+  "axe": [],
+  "finished": "2026-10-09T09:41:15.383Z",
+  "passed": 7,
+  "failed": 10,
+  "status": "failed"
+}

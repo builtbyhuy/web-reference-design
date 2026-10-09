@@ -6,31 +6,33 @@
   <meta name="description" content="A fictional architecture and interiors studio enquiry page. This demonstration creates a local preview only.">
   <title>FIELDNOTE — Spaces for everyday life</title>
   <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/courtyard-study.webp" as="image">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <a class="wordmark" href="#main" aria-label="FIELDNOTE home">FIELDNOTE</a>
+    <a class="wordmark" href="#main" aria-label="FIELDNOTE home">FIELDNOTE<span class="wordmark-symbol" aria-hidden="true">↗</span></a>
     <nav aria-label="Main"><a href="#approach">Our approach</a><a class="nav-enquiry" href="#enquiry">Start an enquiry <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="discipline">Architecture &amp; interiors</p>
-        <h1 id="hero-title">Spaces for<br>everyday life.</h1>
-        <p class="hero-description">We shape homes, workplaces and places to gather through light, material and careful listening.</p>
-        <a class="text-action" href="#enquiry">Start an enquiry <span aria-hidden="true">↗</span></a>
-        <p class="demo-note">Fictional studio. Local preview only.</p>
+      <div class="hero-stage">
+        <figure class="spatial-study">
+          <img src="assets/courtyard-study.webp" width="1672" height="941" fetchpriority="high" alt="Original AI-generated architectural concept: a shaded limestone room opens onto a sunlit courtyard, reflecting pool and olive tree.">
+        </figure>
+        <div class="hero-copy">
+          <p class="discipline">Architecture &amp; interiors</p>
+          <h1 id="hero-title">Spaces for<br>everyday life.</h1>
+          <div class="hero-bottom"><p class="hero-description">We shape homes, workplaces and places to gather through light, material and careful listening.</p><a class="text-action" href="#enquiry">Start an enquiry <span aria-hidden="true">↗</span></a></div>
+        </div>
       </div>
-      <figure class="spatial-study">
-        <img src="assets/spatial-study.svg" width="800" height="760" alt="Original architectural illustration: an open mineral-toned room, a circular opening, and long afternoon shadows.">
-        <figcaption><span>A study in light &amp; proportion</span><span>Original illustration</span></figcaption>
-      </figure>
+      <div class="study-caption"><p>Light. Material. A sense of place.</p><p>AI-generated concept study · Fictional studio</p></div>
     </section>
     <section id="approach" class="approach" aria-labelledby="approach-title">
-      <div class="approach-intro"><h2 id="approach-title">Begin with<br>how you live.</h2><p>A conversation about the space, the people who use it and what needs to change.</p></div>
+      <div class="approach-intro"><p class="section-note">Our approach</p><h2 id="approach-title">Begin with<br>how you live.</h2><p>A conversation about the space, the people who use it and what needs to change.</p></div>
       <div class="service-list">
         <article><h3>Homes</h3><p>Rooms that work around your daily rituals.</p></article>
         <article><h3>Workplaces</h3><p>Space to focus, collaborate and feel at ease.</p></article>

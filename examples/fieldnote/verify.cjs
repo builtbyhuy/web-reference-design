@@ -25,7 +25,7 @@ async function check(name, task) { try { await task(); checks.push({ name, statu
     await context.route('**/*', route => { if (new URL(route.request().url()).hostname === '127.0.0.1') return route.continue(); remote.push(route.request().url()); return route.abort(); });
     const page = await context.newPage();
     page.on('pageerror', error => errors.push(error.message));
-    const open = async width => { await page.setViewportSize({ width: width || 1440, height: width && width < 768 ? 844 : 960 }); await page.goto(base); };
+    const open = async width => { await page.setViewportSize({ width: width || 1440, height: width && width < 768 ? 844 : 960 }); await page.goto(base); await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(image => image.decode())); }); };
     await open();
     await page.screenshot({ path: path.join(evidence, `${variant}-desktop.png`) });
     await page.screenshot({ path: path.join(evidence, `${variant}-desktop-full.png`), fullPage: true });
@@ -67,7 +67,7 @@ async function check(name, task) { try { await task(); checks.push({ name, statu
     report.passed = checks.filter(check => check.status === 'passed').length;
     report.failed = checks.filter(check => check.status === 'failed').length;
     report.limits = ['Chromium desktop emulation only; no Safari/Firefox or physical mobile device.', 'No screen-reader session or complete accessibility certification.', 'No sending integration, real studio outcome or measured conversion/agent comparison.'];
-    if (variant === 'after') report.manualReview = ['Desktop/mobile composition and error/preview pixels inspected.', 'Remaining axe contrast incomplete is the decorative aria-hidden footer arrow; inherited #292823 on #ece8dd is 12.06:1, checked separately.'];
+    if (variant === 'after') report.manualReview = ['Desktop/mobile composition and error/preview pixels inspected separately from automated behavior checks.', 'Axe leaves hero text over the raster image and the decorative footer arrow incomplete. Hero background rectangles were checked separately at 1440, 768, 390 and 320px; details and scope are in brief.md. No complete accessibility certification is implied.'];
     fs.writeFileSync(path.join(evidence, `${variant}-verification.json`), JSON.stringify(report, null, 2) + '\n');
     if (browser) await browser.close();
     await new Promise(resolve => server.close(resolve));
