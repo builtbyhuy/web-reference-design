@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spoke Workshop is a fictional independent bicycle repair workshop. Compare services and preview an appointment request.">
+  <meta name="theme-color" content="#f5f3e9">
+  <title>Spoke Workshop — Keep the good rides rolling</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="Spoke Workshop home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17"/><circle cx="20" cy="20" r="3"/><path d="M20 3v14m0 6v14M3 20h14m6 0h14M8 8l10 10m4 4 10 10M8 32l10-10m4-4 10-10"/></svg>
+      <span><strong>SPOKE</strong><small>WORKSHOP</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#approach">Our approach</a>
+      <a href="#visit">Visit</a>
+      <a class="button small" href="#appointment">Book a repair <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Independent bicycle repair</p>
+        <h1 id="hero-heading">Keep the<br>good rides<br><span>rolling.</span></h1>
+        <p class="intro">From a stubborn gear to a well-earned tune-up. Thoughtful repairs for the bike you love riding.</p>
+        <a class="button" href="#appointment">Let's fix your bike <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span class="mono">SMALL WORKSHOP.<br>PERSONAL ATTENTION.</span><svg viewBox="0 0 80 50" aria-hidden="true"><circle cx="16" cy="32" r="13"/><circle cx="63" cy="32" r="13"/><path d="m16 32 16-24 12 24H16l10-17h30l7 17M31 8h-9m34 7-5-11h10"/></svg></div>
+      </div>
+      <figure class="hero-media">
+        <img src="assets/repair-workshop.jpg" width="1600" height="2400" alt="Hands carefully adjusting the rear wheel and gears of a bicycle" fetchpriority="high">
+        <figcaption><span>A little care.<br>A lot more miles.</span><span class="photo-label">REPAIR / RIDE / REPEAT</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="rider-strip wrap" aria-label="Bikes we service"><span>Built around your ride</span><p>City & commuter <b aria-hidden="true">✳</b> Road & gravel <b aria-hidden="true">✳</b> Mountain & hybrid</p></section>
+
+    <section class="services wrap section" id="services" aria-labelledby="services-heading">
+      <div class="section-heading"><div><p class="eyebrow">01 / The work</p><h2 id="services-heading">A fix for every<br>kind of ride.</h2></div><p>Choose a starting point. We inspect your bike, explain what it needs, and agree a price before any work begins.</p></div>
+      <div class="service-table" role="table" aria-label="Repair services and starting prices">
+        <div class="table-head" role="row"><span role="columnheader">Service</span><span role="columnheader">What's included</span><span role="columnheader">Labour from</span><span role="columnheader" class="sr-only">Choose service</span></div>
+        <div class="service-row" role="row"><div role="cell"><span class="service-number mono">01</span><h3>Quick fix</h3><p>For one thing that's slowing you down.</p></div><div role="cell"><p>Puncture repair, a brake adjustment, or a gear adjustment. One repair per visit.</p><span class="service-detail">Typical workshop time: 30–60 min</span></div><div role="cell" class="price"><span class="mobile-label">Labour from</span>£20</div><div role="cell"><button class="select-service" data-service="Quick fix" aria-label="Choose Quick fix">Choose <span aria-hidden="true">↗</span></button></div></div>
+        <div class="service-row" role="row"><div role="cell"><span class="service-number mono">02</span><h3>Everyday tune</h3><p>Freshen up your daily companion.</p></div><div role="cell"><p>Safety check, brake and gear setup, tyre pressure, bolt check, and chain lubrication.</p><span class="service-detail">Typical workshop time: 1–2 hours</span></div><div role="cell" class="price"><span class="mobile-label">Labour from</span>£65</div><div role="cell"><button class="select-service" data-service="Everyday tune" aria-label="Choose Everyday tune">Choose <span aria-hidden="true">↗</span></button></div></div>
+        <div class="service-row" role="row"><div role="cell"><span class="service-number mono">03</span><h3>Full service</h3><p>A deeper reset for more miles ahead.</p></div><div role="cell"><p>Everyday tune, drivetrain removal and clean, wheel truing, and bearing inspection.</p><span class="service-detail">Typical workshop time: 3–4 hours</span></div><div role="cell" class="price"><span class="mobile-label">Labour from</span>£120</div><div role="cell"><button class="select-service" data-service="Full service" aria-label="Choose Full service">Choose <span aria-hidden="true">↗</span></button></div></div>
+      </div>
+      <div class="service-footnote"><p>Parts cost extra. Turnaround depends on parts and workshop availability.</p><a class="text-link" href="#appointment" data-help>Not sure? Tell us what's happening <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="approach section" id="approach" aria-labelledby="approach-heading">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / The way we work</p><h2 id="approach-heading">Good repairs start<br>with a conversation.</h2></div><p>No jargon. No surprise work.<br>Just the attention your bike deserves.</p></div>
+        <ol class="process"><li><span class="mono">01 / TELL US</span><h3>What's your bike doing?</h3><p>Tell us about the squeak, wobble, or next big ride. You don't need to know the name of the part.</p></li><li><span class="mono">02 / AGREE IT</span><h3>We'll make a plan.</h3><p>At drop-off, we check the bike together. You approve the repair and estimate before we pick up a tool.</p></li><li><span class="mono">03 / RIDE ON</span><h3>Back to the good part.</h3><p>Collect your bike with a clear explanation of the work and a few tips to keep it running smoothly.</p></li></ol>
+      </div>
+    </section>
+
+    <section class="appointment wrap section" id="appointment" aria-labelledby="appointment-heading">
+      <div class="appointment-copy"><p class="eyebrow">03 / Your next ride</p><h2 id="appointment-heading">Let's get you<br>back out there.</h2><p>Pick a service and a preferred drop-off date. Not sure what you need? Choose “Help me decide”.</p><div class="demo-note"><strong>Try the appointment preview</strong><p>This concept site shows how a request would look. Nothing is sent, saved, or booked. Please use sample details.</p></div><p class="mono appointment-mark">YOUR BIKE. YOUR PACE.<br>OUR FULL ATTENTION.</p></div>
+      <div class="form-panel">
+        <form id="appointment-form" novalidate>
+          <div id="error-summary" class="error-summary" tabindex="-1" hidden><div role="alert"><h3>There is a problem</h3><ul id="error-list"></ul></div></div>
+          <p class="form-intro">Fields marked <span aria-hidden="true">*</span><span class="sr-only">with an asterisk</span> are required.</p>
+          <div class="form-grid">
+            <div class="field"><label for="name">Your name <span aria-hidden="true">*</span></label><p class="field-error" id="name-error" hidden></p><input id="name" name="name" autocomplete="name" maxlength="100" required></div>
+            <div class="field"><label for="email">Email address <span aria-hidden="true">*</span></label><p class="field-error" id="email-error" hidden></p><input type="email" id="email" name="email" autocomplete="email" maxlength="254" required></div>
+            <div class="field"><label for="service">Service <span aria-hidden="true">*</span></label><p class="field-error" id="service-error" hidden></p><select id="service" name="service" required><option value="">Choose a service</option><option>Quick fix</option><option>Everyday tune</option><option>Full service</option><option>Help me decide</option></select></div>
+            <div class="field"><label for="date">Preferred drop-off date <span aria-hidden="true">*</span></label><p class="field-hint" id="date-hint">Tuesday–Saturday. A preference, not a confirmed slot.</p><p class="field-error" id="date-error" hidden></p><input type="date" id="date" name="date" aria-describedby="date-hint" required></div>
+            <div class="field full"><label for="notes">What can we help with? <span class="optional">Optional</span></label><p class="field-hint" id="notes-hint">Bike type, symptoms, or anything else we should know.</p><textarea id="notes" name="notes" rows="3" maxlength="1000" aria-describedby="notes-hint"></textarea></div>
+          </div>
+          <button class="button submit" type="submit">Preview appointment request <span aria-hidden="true">↗</span></button>
+          <p class="privacy-note">Local preview only. Your details stay on this page until you close or refresh it.</p>
+          <noscript><p class="no-script">Enable JavaScript to preview a request. This site does not send appointments.</p></noscript>
+        </form>
+        <div class="success-panel" id="request-preview" role="region" tabindex="-1" hidden aria-labelledby="preview-heading"><span class="success-mark" aria-hidden="true">✓</span><p class="eyebrow">Ready to review</p><h3 id="preview-heading">Your request preview.</h3><p>This is a preview only. No request has been sent and no appointment is booked.</p><dl id="preview-details"></dl><button class="button" id="edit-request" type="button">Edit your details <span aria-hidden="true">↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="visit wrap" id="visit" aria-labelledby="visit-heading"><div><p class="eyebrow">04 / The neighbourhood</p><h2 id="visit-heading">A workshop,<br>not a showroom.</h2></div><div><h3>Come as you are.</h3><p>Spoke is a fictional local workshop. These details show where practical visit information would live.</p><dl class="visit-details"><div><dt>Find us</dt><dd>24 Pedal Lane<br>Sample neighbourhood</dd></div><div><dt>Workshop hours</dt><dd>Tuesday–Friday / 9am–6pm<br>Saturday / 9am–4pm<br>Sunday–Monday / Closed</dd></div></dl><p class="service-detail">Mechanical repairs only. E-bike motor and battery work would need a specialist.</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><p class="footer-brand">SPOKE<span>WORKSHOP</span></p><div><p>Keep the good rides rolling.</p><p class="footer-small">Fictional workshop · local website demonstration</p><p class="footer-small">Repair photo: <a href="https://www.pexels.com/photo/close-up-of-fixing-a-bicycle-10263877/">Rehook Bike / Pexels</a></p></div><a class="text-link" href="#">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

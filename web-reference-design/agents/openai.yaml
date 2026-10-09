@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web Reference Design"
+  short_description: "Turn curated references into polished web interfaces"
+  default_prompt: "Use $web-reference-design to select relevant references, build the requested interface, and inspect the rendered result."
+policy:
+  allow_implicit_invocation: true

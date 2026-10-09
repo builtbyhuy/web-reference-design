@@ -1,0 +1,138 @@
+{
+  "variant": "after",
+  "started": "2026-10-09T09:02:37.457Z",
+  "checks": [
+    {
+      "name": "No horizontal page overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal page overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "Incomplete enquiry shows all required fields without creating a preview",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid email preserves the rest of the enquiry",
+      "status": "passed"
+    },
+    {
+      "name": "Missing name preserves valid email and brief",
+      "status": "passed"
+    },
+    {
+      "name": "Error summary receives focus and its link focuses the exact field",
+      "status": "passed"
+    },
+    {
+      "name": "Preview safely renders literal input and states nothing has been sent",
+      "status": "passed"
+    },
+    {
+      "name": "Editing the preview restores all values and keyboard focus",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard can skip navigation and operate the full form",
+      "status": "passed"
+    },
+    {
+      "name": "Long literal preview content fits a narrow screen",
+      "status": "passed"
+    },
+    {
+      "name": "Primary form action has a practical mobile touch target",
+      "status": "passed"
+    },
+    {
+      "name": "The enquiry flow performs no external requests or storage writes",
+      "status": "passed"
+    },
+    {
+      "name": "No JavaScript page errors during the observed flow",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "remoteRequests": [],
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "browser": "154.0.8037.98",
+    "browserFamily": "Chromium",
+    "viewports": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "reducedMotion": "reduce"
+  },
+  "axe": [
+    {
+      "state": "desktop initial",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "state": "mobile errors",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "state": "mobile preview",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              "a[href$=\"#main\"] > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "finished": "2026-10-09T09:02:40.736Z",
+  "passed": 15,
+  "failed": 0,
+  "limits": [
+    "Chromium desktop emulation only; no Safari/Firefox or physical mobile device.",
+    "No screen-reader session or complete accessibility certification.",
+    "No sending integration, real studio outcome or measured conversion/agent comparison."
+  ],
+  "manualReview": [
+    "Desktop/mobile composition and error/preview pixels inspected.",
+    "Remaining axe contrast incomplete is the decorative aria-hidden footer arrow; inherited #292823 on #ece8dd is 12.06:1, checked separately."
+  ]
+}

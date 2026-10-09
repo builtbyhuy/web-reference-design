@@ -1,0 +1,1429 @@
+{
+  "schema_version": 1,
+  "provenance": {
+    "curator": "Lê Huy Thái",
+    "share_url": "https://www.facebook.com/share/p/1DFyA18XUt/",
+    "original_post_url": "https://www.facebook.com/lehuythaidotcom/posts/pfbid02d6XtgyvmyxisPFKcXiD5cdyWkr2j17smJABCEdnoG6UxSemUmywscJtBWxmeXWdAl",
+    "capture_date": "2026-10-09",
+    "capture_timezone": "Asia/Bangkok",
+    "source_collection": "Web reference collection README: 25 numbered groups, three resources per group.",
+    "url_handling": "Resource hrefs were decoded from Facebook redirects by the source collection; only fbclid was removed. This catalog preserves those 75 URLs exactly.",
+    "editorial_note": "English labels, descriptions, and routing tags are new summaries. Original Vietnamese group names and order are retained. No Facebook post text, comments, or images are bundled.",
+    "verification": "Links and category membership reconciled against the captured collection. Service availability, pricing, license terms, and integration compatibility were not verified."
+  },
+  "categories": [
+    {
+      "id": "01",
+      "index": 1,
+      "name_en": "Adaptable page blocks",
+      "name_vi": "Lấy mẫu có sẵn về custom",
+      "purpose": "Start from reusable sections and adapt them to the project content and visual direction.",
+      "keywords": [
+        "blocks",
+        "templates",
+        "landing",
+        "saas",
+        "pricing",
+        "faq",
+        "hero",
+        "sections",
+        "customize",
+        "custom"
+      ],
+      "resources": [
+        {
+          "id": "01-01",
+          "name": "OriginKit",
+          "url": "https://www.originkit.dev/",
+          "description": "Browse ready-made sections as starting points for a custom page.",
+          "tags": [
+            "blocks",
+            "sections",
+            "hero",
+            "landing"
+          ]
+        },
+        {
+          "id": "01-02",
+          "name": "21st.dev",
+          "url": "https://21st.dev/",
+          "description": "Explore component examples and implementation prompts for interface work.",
+          "tags": [
+            "components",
+            "prompts",
+            "buttons",
+            "cards",
+            "menus"
+          ]
+        },
+        {
+          "id": "01-03",
+          "name": "shadcnblocks",
+          "url": "https://www.shadcnblocks.com/",
+          "description": "Find section patterns for marketing pages and adapt their structure.",
+          "tags": [
+            "shadcn",
+            "blocks",
+            "pricing",
+            "faq",
+            "hero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "index": 2,
+      "name_en": "Visual templates and AI prompts",
+      "name_vi": "Chọn mẫu đẹp, lấy prompt cho AI",
+      "purpose": "Use visual examples to make a precise build brief before generating an interface.",
+      "keywords": [
+        "ai",
+        "prompts",
+        "templates",
+        "visual",
+        "reference",
+        "landing",
+        "motion",
+        "examples"
+      ],
+      "resources": [
+        {
+          "id": "02-01",
+          "name": "Layers",
+          "url": "https://www.getlayers.ai/",
+          "description": "Review visual templates and associated prompts for interface generation.",
+          "tags": [
+            "ai",
+            "prompt",
+            "prompts",
+            "templates"
+          ]
+        },
+        {
+          "id": "02-02",
+          "name": "MotionSites",
+          "url": "https://motionsites.ai/",
+          "description": "Study page templates that emphasize animation and motion direction.",
+          "tags": [
+            "motion",
+            "animation",
+            "animated",
+            "templates",
+            "prompts"
+          ]
+        },
+        {
+          "id": "02-03",
+          "name": "Aura templates",
+          "url": "https://www.aura.build/templates",
+          "description": "Browse templates to establish a page direction and adapt it in a builder.",
+          "tags": [
+            "aura",
+            "ai",
+            "templates",
+            "builder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "index": 3,
+      "name_en": "Ready-made visual effects",
+      "name_vi": "Hiệu ứng có sẵn cho website",
+      "purpose": "Identify focused effects for text, backgrounds, and interactive sections.",
+      "keywords": [
+        "effects",
+        "animation",
+        "animated",
+        "react",
+        "hover",
+        "background",
+        "text"
+      ],
+      "resources": [
+        {
+          "id": "03-01",
+          "name": "React Bits",
+          "url": "https://reactbits.dev/",
+          "description": "Explore React examples for animated text, backgrounds, and interactive elements.",
+          "tags": [
+            "react",
+            "effects",
+            "animated",
+            "text",
+            "backgrounds"
+          ]
+        },
+        {
+          "id": "03-02",
+          "name": "Aceternity UI",
+          "url": "https://ui.aceternity.com/",
+          "description": "Inspect component examples with decorative backgrounds and interaction effects.",
+          "tags": [
+            "cards",
+            "backgrounds",
+            "hover",
+            "effects"
+          ]
+        },
+        {
+          "id": "03-03",
+          "name": "Magic UI",
+          "url": "https://magicui.design/",
+          "description": "Use effect-oriented interface examples as implementation references.",
+          "tags": [
+            "effects",
+            "animation",
+            "marketing",
+            "components"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "index": 4,
+      "name_en": "Interface component libraries",
+      "name_vi": "Nút, menu, bảng có sẵn",
+      "purpose": "Choose a component foundation compatible with the existing stack.",
+      "keywords": [
+        "components",
+        "library",
+        "libraries",
+        "buttons",
+        "forms",
+        "input",
+        "tables",
+        "menus",
+        "tailwind",
+        "react"
+      ],
+      "resources": [
+        {
+          "id": "04-01",
+          "name": "shadcn/ui",
+          "url": "https://ui.shadcn.com/",
+          "description": "Reference editable component patterns for forms, menus, and data presentation.",
+          "tags": [
+            "shadcn",
+            "react",
+            "forms",
+            "inputs",
+            "table",
+            "tables",
+            "buttons"
+          ]
+        },
+        {
+          "id": "04-02",
+          "name": "daisyUI",
+          "url": "https://daisyui.com/",
+          "description": "Explore Tailwind-oriented component classes and theme patterns.",
+          "tags": [
+            "tailwind",
+            "css",
+            "themes",
+            "buttons",
+            "menus"
+          ]
+        },
+        {
+          "id": "04-03",
+          "name": "Flowbite",
+          "url": "https://flowbite.com/",
+          "description": "Inspect Tailwind component patterns and their interactive behaviors.",
+          "tags": [
+            "tailwind",
+            "components",
+            "tables",
+            "inputs",
+            "javascript"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "index": 5,
+      "name_en": "Website layout inspiration",
+      "name_vi": "Tìm bố cục đẹp cho website",
+      "purpose": "Compare page composition, information hierarchy, and placement of content.",
+      "keywords": [
+        "layout",
+        "layouts",
+        "inspiration",
+        "landing",
+        "composition",
+        "hierarchy",
+        "marketing",
+        "portfolio"
+      ],
+      "resources": [
+        {
+          "id": "05-01",
+          "name": "Land-book",
+          "url": "https://land-book.com/",
+          "description": "Compare website layouts and section composition across visual examples.",
+          "tags": [
+            "layout",
+            "layouts",
+            "inspiration",
+            "landing"
+          ]
+        },
+        {
+          "id": "05-02",
+          "name": "Lapa Ninja",
+          "url": "https://www.lapa.ninja/",
+          "description": "Study landing-page arrangements for copy, imagery, and sections.",
+          "tags": [
+            "landing",
+            "copy",
+            "layout",
+            "images",
+            "hero"
+          ]
+        },
+        {
+          "id": "05-03",
+          "name": "Curated Design",
+          "url": "https://www.curated.design/",
+          "description": "Browse selected sites to explore alternative page structures.",
+          "tags": [
+            "websites",
+            "inspiration",
+            "layouts",
+            "composition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "index": 6,
+      "name_en": "Visual style and user flows",
+      "name_vi": "Tìm phong cách và cách người dùng thao tác",
+      "purpose": "Find references for the desired style and the sequence of user actions.",
+      "keywords": [
+        "style",
+        "styles",
+        "flows",
+        "flow",
+        "onboarding",
+        "signup",
+        "registration",
+        "minimal",
+        "dark",
+        "ux"
+      ],
+      "resources": [
+        {
+          "id": "06-01",
+          "name": "Siteinspire",
+          "url": "https://www.siteinspire.com/",
+          "description": "Explore website examples to define a coherent visual style.",
+          "tags": [
+            "style",
+            "minimal",
+            "websites",
+            "inspiration"
+          ]
+        },
+        {
+          "id": "06-02",
+          "name": "Dark Design",
+          "url": "https://www.dark.design/",
+          "description": "Study dark interfaces and how they balance text, color, and imagery.",
+          "tags": [
+            "dark",
+            "theme",
+            "contrast",
+            "style"
+          ]
+        },
+        {
+          "id": "06-03",
+          "name": "Mobbin",
+          "url": "https://mobbin.com/",
+          "description": "Inspect application screens and user-flow references for interaction decisions.",
+          "tags": [
+            "ux",
+            "flows",
+            "onboarding",
+            "signup",
+            "registration",
+            "screens"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "index": 7,
+      "name_en": "Consistent icon families",
+      "name_vi": "Icon đồng bộ, giao diện gọn hơn",
+      "purpose": "Use one icon family with a consistent weight and visual vocabulary.",
+      "keywords": [
+        "icon",
+        "icons",
+        "symbols",
+        "outline",
+        "navigation",
+        "consistent",
+        "stroke"
+      ],
+      "resources": [
+        {
+          "id": "07-01",
+          "name": "Lucide",
+          "url": "https://lucide.dev/icons/",
+          "description": "Inspect an outline icon family for navigation and interface controls.",
+          "tags": [
+            "icons",
+            "outline",
+            "stroke",
+            "navigation"
+          ]
+        },
+        {
+          "id": "07-02",
+          "name": "Phosphor Icons",
+          "url": "https://phosphoricons.com/",
+          "description": "Compare icon weights and styles within a single family.",
+          "tags": [
+            "icons",
+            "weights",
+            "duotone",
+            "filled"
+          ]
+        },
+        {
+          "id": "07-03",
+          "name": "Heroicons",
+          "url": "https://heroicons.com/",
+          "description": "Choose interface symbols from coordinated outline and solid styles.",
+          "tags": [
+            "icons",
+            "outline",
+            "solid",
+            "interface"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "index": 8,
+      "name_en": "Fonts and type pairing",
+      "name_vi": "Chọn font và phối chữ dễ hơn",
+      "purpose": "Find readable fonts and reference combinations that support the content.",
+      "keywords": [
+        "font",
+        "fonts",
+        "typography",
+        "type",
+        "pairing",
+        "vietnamese",
+        "readability",
+        "headings"
+      ],
+      "resources": [
+        {
+          "id": "08-01",
+          "name": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "description": "Explore font families, language coverage, and web typography options.",
+          "tags": [
+            "font",
+            "fonts",
+            "vietnamese",
+            "language",
+            "typography"
+          ]
+        },
+        {
+          "id": "08-02",
+          "name": "Fontshare",
+          "url": "https://www.fontshare.com/",
+          "description": "Browse typefaces and inspect their suitability for project text.",
+          "tags": [
+            "font",
+            "fonts",
+            "typefaces",
+            "vietnamese"
+          ]
+        },
+        {
+          "id": "08-03",
+          "name": "Typewolf",
+          "url": "https://www.typewolf.com/",
+          "description": "Study examples of typeface combinations used in website designs.",
+          "tags": [
+            "typography",
+            "pairing",
+            "fonts",
+            "inspiration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "index": 9,
+      "name_en": "Palette and interface color",
+      "name_vi": "Chọn màu và thử lên giao diện",
+      "purpose": "Test palette choices in backgrounds, text, and controls before implementation.",
+      "keywords": [
+        "color",
+        "colors",
+        "palette",
+        "contrast",
+        "light",
+        "dark",
+        "buttons",
+        "theme"
+      ],
+      "resources": [
+        {
+          "id": "09-01",
+          "name": "Coolors",
+          "url": "https://coolors.co/",
+          "description": "Generate and compare palettes for a project color direction.",
+          "tags": [
+            "color",
+            "colors",
+            "palette",
+            "generator"
+          ]
+        },
+        {
+          "id": "09-02",
+          "name": "Realtime Colors",
+          "url": "https://www.realtimecolors.com/",
+          "description": "Preview how selected colors behave in an interface-like composition.",
+          "tags": [
+            "color",
+            "colors",
+            "preview",
+            "css",
+            "buttons"
+          ]
+        },
+        {
+          "id": "09-03",
+          "name": "Radix Colors",
+          "url": "https://www.radix-ui.com/colors",
+          "description": "Reference structured color scales for light and dark interfaces.",
+          "tags": [
+            "color",
+            "colors",
+            "scales",
+            "dark",
+            "light",
+            "radix"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "index": 10,
+      "name_en": "Illustration families",
+      "name_vi": "Hình minh họa cùng một phong cách",
+      "purpose": "Select related illustrations that communicate content with one visual style.",
+      "keywords": [
+        "illustration",
+        "illustrations",
+        "people",
+        "story",
+        "graphics",
+        "onboarding"
+      ],
+      "resources": [
+        {
+          "id": "10-01",
+          "name": "unDraw",
+          "url": "https://undraw.co/illustrations",
+          "description": "Explore illustrations with adjustable color for content and interface sections.",
+          "tags": [
+            "illustrations",
+            "color",
+            "onboarding"
+          ]
+        },
+        {
+          "id": "10-02",
+          "name": "Storyset",
+          "url": "https://storyset.com/",
+          "description": "Browse themed illustration sets and customization options.",
+          "tags": [
+            "illustrations",
+            "story",
+            "scenes",
+            "color"
+          ]
+        },
+        {
+          "id": "10-03",
+          "name": "Humaaans",
+          "url": "https://www.humaaans.com/",
+          "description": "Compose illustrated people and scenes from a coordinated set.",
+          "tags": [
+            "people",
+            "illustrations",
+            "scenes",
+            "characters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "index": 11,
+      "name_en": "Generated backgrounds",
+      "name_vi": "Tạo nền theo màu của website",
+      "purpose": "Create a background asset that fits the page palette and composition.",
+      "keywords": [
+        "background",
+        "backgrounds",
+        "pattern",
+        "patterns",
+        "svg",
+        "wave",
+        "waves",
+        "shapes",
+        "texture"
+      ],
+      "resources": [
+        {
+          "id": "11-01",
+          "name": "Haikei",
+          "url": "https://haikei.app/",
+          "description": "Generate abstract shapes and wave compositions for background assets.",
+          "tags": [
+            "svg",
+            "png",
+            "waves",
+            "shapes",
+            "background"
+          ]
+        },
+        {
+          "id": "11-02",
+          "name": "SVG Backgrounds",
+          "url": "https://www.svgbackgrounds.com/",
+          "description": "Browse configurable vector background patterns.",
+          "tags": [
+            "svg",
+            "backgrounds",
+            "patterns",
+            "color"
+          ]
+        },
+        {
+          "id": "11-03",
+          "name": "fffuel",
+          "url": "https://www.fffuel.co/",
+          "description": "Explore generators for vector textures, shapes, and patterns.",
+          "tags": [
+            "svg",
+            "textures",
+            "shapes",
+            "patterns",
+            "generator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "index": 12,
+      "name_en": "Content photography and video",
+      "name_vi": "Tìm ảnh và video cho nội dung",
+      "purpose": "Find relevant visual media and inspect asset-specific usage conditions.",
+      "keywords": [
+        "photo",
+        "photos",
+        "photography",
+        "image",
+        "images",
+        "video",
+        "videos",
+        "stock",
+        "media"
+      ],
+      "resources": [
+        {
+          "id": "12-01",
+          "name": "Unsplash",
+          "url": "https://unsplash.com/",
+          "description": "Search photographs that fit the page subject and composition.",
+          "tags": [
+            "photo",
+            "photos",
+            "photography",
+            "stock",
+            "image"
+          ]
+        },
+        {
+          "id": "12-02",
+          "name": "Pexels",
+          "url": "https://www.pexels.com/",
+          "description": "Find photography and video clips for content or backgrounds.",
+          "tags": [
+            "photos",
+            "video",
+            "videos",
+            "stock",
+            "background"
+          ]
+        },
+        {
+          "id": "12-03",
+          "name": "Pixabay",
+          "url": "https://pixabay.com/",
+          "description": "Explore media across photography, video, and illustration formats.",
+          "tags": [
+            "photos",
+            "video",
+            "illustrations",
+            "media"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "index": 13,
+      "name_en": "Device and presentation mockups",
+      "name_vi": "Đặt giao diện vào khung thiết bị",
+      "purpose": "Present interface screenshots inside a suitable device or scene.",
+      "keywords": [
+        "mockup",
+        "mockups",
+        "device",
+        "devices",
+        "screenshots",
+        "presentation",
+        "phone",
+        "portfolio"
+      ],
+      "resources": [
+        {
+          "id": "13-01",
+          "name": "Shots",
+          "url": "https://shots.so/",
+          "description": "Create presentation images around interface screenshots.",
+          "tags": [
+            "mockups",
+            "screenshots",
+            "presentation"
+          ]
+        },
+        {
+          "id": "13-02",
+          "name": "MockupBro",
+          "url": "https://mockupbro.com/",
+          "description": "Place artwork or screenshots into mockup templates.",
+          "tags": [
+            "mockup",
+            "mockups",
+            "templates"
+          ]
+        },
+        {
+          "id": "13-03",
+          "name": "MockUPhone",
+          "url": "https://mockuphone.com/",
+          "description": "Frame interface screenshots in device mockups.",
+          "tags": [
+            "mockups",
+            "phone",
+            "devices",
+            "screenshots"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "index": 14,
+      "name_en": "Rendered 3D illustration assets",
+      "name_vi": "Ảnh 3D có sẵn, dùng như ảnh thường",
+      "purpose": "Use rendered 3D graphics when an image is sufficient for the design.",
+      "keywords": [
+        "3d",
+        "rendered",
+        "illustration",
+        "illustrations",
+        "objects",
+        "static",
+        "icons"
+      ],
+      "resources": [
+        {
+          "id": "14-01",
+          "name": "Shapefest",
+          "url": "https://shapefest.com/",
+          "description": "Browse rendered 3D objects and shapes for visual compositions.",
+          "tags": [
+            "3d",
+            "rendered",
+            "objects",
+            "shapes"
+          ]
+        },
+        {
+          "id": "14-02",
+          "name": "Icons8 Illustrations",
+          "url": "https://icons8.com/illustrations",
+          "description": "Explore illustration collections, including rendered 3D styles.",
+          "tags": [
+            "3d",
+            "illustrations",
+            "rendered"
+          ]
+        },
+        {
+          "id": "14-03",
+          "name": "3dicons V1",
+          "url": "https://old.3dicons.co/",
+          "description": "Inspect a collection of rendered 3D icons for feature illustrations.",
+          "tags": [
+            "3d",
+            "icons",
+            "rendered",
+            "features"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "index": 15,
+      "name_en": "Interactive 3D on the web",
+      "name_vi": "Đưa 3D tương tác lên website",
+      "purpose": "Choose an embedding approach for an interactive model or product scene.",
+      "keywords": [
+        "3d",
+        "interactive",
+        "rotate",
+        "rotation",
+        "model",
+        "viewer",
+        "embed",
+        "product",
+        "configurator"
+      ],
+      "resources": [
+        {
+          "id": "15-01",
+          "name": "Spline",
+          "url": "https://spline.design/",
+          "description": "Explore visual authoring and web embedding for interactive 3D scenes.",
+          "tags": [
+            "3d",
+            "scene",
+            "interactive",
+            "embed",
+            "authoring"
+          ]
+        },
+        {
+          "id": "15-02",
+          "name": "model-viewer",
+          "url": "https://modelviewer.dev/",
+          "description": "Reference a web component for displaying and rotating existing 3D models.",
+          "tags": [
+            "3d",
+            "model",
+            "viewer",
+            "rotate",
+            "component"
+          ]
+        },
+        {
+          "id": "15-03",
+          "name": "Vectary",
+          "url": "https://www.vectary.com/",
+          "description": "Explore 3D scene and product-configuration presentation workflows.",
+          "tags": [
+            "3d",
+            "product",
+            "configurator",
+            "scene",
+            "embed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "index": 16,
+      "name_en": "3D models, materials, and lighting",
+      "name_vi": "Nguyên liệu để dựng cảnh 3D",
+      "purpose": "Source the models, surface textures, and lighting assets a scene needs.",
+      "keywords": [
+        "3d",
+        "models",
+        "materials",
+        "textures",
+        "hdri",
+        "lighting",
+        "game",
+        "assets"
+      ],
+      "resources": [
+        {
+          "id": "16-01",
+          "name": "Poly Haven",
+          "url": "https://polyhaven.com/",
+          "description": "Explore 3D models, surface materials, and environment lighting assets.",
+          "tags": [
+            "3d",
+            "models",
+            "materials",
+            "hdri",
+            "lighting"
+          ]
+        },
+        {
+          "id": "16-02",
+          "name": "ambientCG",
+          "url": "https://ambientcg.com/",
+          "description": "Find surface textures and environment assets for 3D scenes.",
+          "tags": [
+            "3d",
+            "materials",
+            "textures",
+            "lighting"
+          ]
+        },
+        {
+          "id": "16-03",
+          "name": "Kenney Assets",
+          "url": "https://kenney.nl/assets",
+          "description": "Browse stylized game-oriented objects and scene assets.",
+          "tags": [
+            "3d",
+            "game",
+            "models",
+            "stylized",
+            "assets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "index": 17,
+      "name_en": "Animated icons and illustrations",
+      "name_vi": "Hình và icon chuyển động có sẵn",
+      "purpose": "Find motion assets with a clear role in feedback or explanation.",
+      "keywords": [
+        "animated",
+        "animation",
+        "icons",
+        "illustrations",
+        "feedback",
+        "loading",
+        "hover",
+        "rive"
+      ],
+      "resources": [
+        {
+          "id": "17-01",
+          "name": "Lucide Animated",
+          "url": "https://lucide-animated.com/",
+          "description": "Inspect animated icon implementations for React interfaces.",
+          "tags": [
+            "animated",
+            "icons",
+            "react",
+            "feedback"
+          ]
+        },
+        {
+          "id": "17-02",
+          "name": "Lordicon",
+          "url": "https://lordicon.com/",
+          "description": "Browse animated icon assets and their integration options.",
+          "tags": [
+            "animated",
+            "icons",
+            "assets",
+            "feedback"
+          ]
+        },
+        {
+          "id": "17-03",
+          "name": "Rive Marketplace",
+          "url": "https://rive.app/marketplace/",
+          "description": "Explore interactive animation assets and runtime integration needs.",
+          "tags": [
+            "rive",
+            "interactive",
+            "animation",
+            "illustrations",
+            "hover"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "index": 18,
+      "name_en": "Animation libraries",
+      "name_vi": "Điều khiển chuyển động bằng mã",
+      "purpose": "Select a motion library for specific transitions or scroll interactions.",
+      "keywords": [
+        "animation",
+        "motion",
+        "transitions",
+        "scroll",
+        "interaction",
+        "timeline",
+        "javascript",
+        "react"
+      ],
+      "resources": [
+        {
+          "id": "18-01",
+          "name": "GSAP",
+          "url": "https://gsap.com/",
+          "description": "Reference animation controls for timelines and scroll-linked interactions.",
+          "tags": [
+            "animation",
+            "scroll",
+            "timeline",
+            "javascript"
+          ]
+        },
+        {
+          "id": "18-02",
+          "name": "Motion",
+          "url": "https://motion.dev/",
+          "description": "Explore interface animation APIs and transition patterns.",
+          "tags": [
+            "motion",
+            "react",
+            "animation",
+            "transitions"
+          ]
+        },
+        {
+          "id": "18-03",
+          "name": "Anime.js",
+          "url": "https://animejs.com/",
+          "description": "Inspect JavaScript animation examples for text, shapes, and interface elements.",
+          "tags": [
+            "animation",
+            "javascript",
+            "text",
+            "shapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "index": 19,
+      "name_en": "Experimental interaction references",
+      "name_vi": "Xem hiệu ứng lạ và học cách làm",
+      "purpose": "Study unusual interactions and understand the technique before adapting it.",
+      "keywords": [
+        "experimental",
+        "interaction",
+        "interactions",
+        "effects",
+        "creative",
+        "demo",
+        "demos",
+        "tutorials"
+      ],
+      "resources": [
+        {
+          "id": "19-01",
+          "name": "CodePen",
+          "url": "https://codepen.io/",
+          "description": "Inspect public frontend experiments and runnable technique demonstrations.",
+          "tags": [
+            "demos",
+            "css",
+            "javascript",
+            "experiments",
+            "code"
+          ]
+        },
+        {
+          "id": "19-02",
+          "name": "Codrops",
+          "url": "https://tympanus.net/codrops/",
+          "description": "Study frontend tutorials and demos for visual interaction techniques.",
+          "tags": [
+            "tutorials",
+            "demos",
+            "effects",
+            "interaction"
+          ]
+        },
+        {
+          "id": "19-03",
+          "name": "Hover States",
+          "url": "https://www.hoverstat.es/",
+          "description": "Browse distinctive interactive websites as visual references.",
+          "tags": [
+            "inspiration",
+            "interaction",
+            "creative",
+            "websites"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "index": 20,
+      "name_en": "shadcn theme configuration",
+      "name_vi": "Đổi màu, đổi font cho web đồng bộ",
+      "purpose": "Align colors and typography through a coherent component theme.",
+      "keywords": [
+        "shadcn",
+        "theme",
+        "themes",
+        "tokens",
+        "colors",
+        "fonts",
+        "configuration"
+      ],
+      "resources": [
+        {
+          "id": "20-01",
+          "name": "tweakcn",
+          "url": "https://tweakcn.com/editor/theme",
+          "description": "Preview and configure a shadcn-oriented interface theme.",
+          "tags": [
+            "shadcn",
+            "theme",
+            "colors",
+            "fonts",
+            "preview"
+          ]
+        },
+        {
+          "id": "20-02",
+          "name": "ZippyStarter Theme Generator",
+          "url": "https://zippystarter.com/tools/shadcn-ui-theme-generator",
+          "description": "Generate a coordinated color theme for shadcn/ui.",
+          "tags": [
+            "shadcn",
+            "theme",
+            "generator",
+            "colors"
+          ]
+        },
+        {
+          "id": "20-03",
+          "name": "shadcn.io Theme Generator",
+          "url": "https://www.shadcn.io/theme-generator",
+          "description": "Inspect theme previews and generate shadcn/ui configuration.",
+          "tags": [
+            "shadcn",
+            "theme",
+            "preview",
+            "configuration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "index": 21,
+      "name_en": "Type scale and spacing",
+      "name_vi": "Chọn cỡ chữ và khoảng cách",
+      "purpose": "Define consistent text hierarchy and responsive spacing values.",
+      "keywords": [
+        "typography",
+        "scale",
+        "spacing",
+        "fluid",
+        "responsive",
+        "size",
+        "headings",
+        "rhythm"
+      ],
+      "resources": [
+        {
+          "id": "21-01",
+          "name": "Type Scale",
+          "url": "https://typescale.com/",
+          "description": "Explore type hierarchy values based on a chosen scale.",
+          "tags": [
+            "typography",
+            "scale",
+            "size",
+            "headings"
+          ]
+        },
+        {
+          "id": "21-02",
+          "name": "Utopia",
+          "url": "https://utopia.fyi/",
+          "description": "Generate fluid type and spacing values for responsive layouts.",
+          "tags": [
+            "fluid",
+            "responsive",
+            "spacing",
+            "typography",
+            "css"
+          ]
+        },
+        {
+          "id": "21-03",
+          "name": "Modular Scale",
+          "url": "https://www.modularscale.com/",
+          "description": "Calculate a proportional scale from a base size and ratio.",
+          "tags": [
+            "scale",
+            "ratio",
+            "headings",
+            "size"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "index": 22,
+      "name_en": "Image preparation",
+      "name_vi": "Chỉnh ảnh gọn trước khi lên web",
+      "purpose": "Prepare appropriately sized, optimized visual assets for the page.",
+      "keywords": [
+        "image",
+        "images",
+        "compress",
+        "compression",
+        "optimize",
+        "resize",
+        "crop",
+        "editing",
+        "performance"
+      ],
+      "resources": [
+        {
+          "id": "22-01",
+          "name": "Squoosh",
+          "url": "https://squoosh.app/",
+          "description": "Compare image compression settings and inspect the visual tradeoff.",
+          "tags": [
+            "compress",
+            "compression",
+            "image",
+            "optimize",
+            "performance"
+          ]
+        },
+        {
+          "id": "22-02",
+          "name": "iLoveIMG",
+          "url": "https://www.iloveimg.com/",
+          "description": "Inspect tools for resizing, cropping, and batch image operations.",
+          "tags": [
+            "resize",
+            "crop",
+            "batch",
+            "images"
+          ]
+        },
+        {
+          "id": "22-03",
+          "name": "Photopea",
+          "url": "https://www.photopea.com/",
+          "description": "Use a layered image-editing workflow for more detailed asset changes.",
+          "tags": [
+            "editing",
+            "layers",
+            "image",
+            "retouch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "index": 23,
+      "name_en": "Representative sample data",
+      "name_vi": "Thêm dữ liệu mẫu cho web bớt trống",
+      "purpose": "Populate prototypes with clearly labeled sample content to test realistic density.",
+      "keywords": [
+        "data",
+        "sample",
+        "dummy",
+        "mock",
+        "products",
+        "avatars",
+        "dashboard",
+        "prototype"
+      ],
+      "resources": [
+        {
+          "id": "23-01",
+          "name": "Mockaroo",
+          "url": "https://www.mockaroo.com/",
+          "description": "Generate structured sample records for tables and prototype data.",
+          "tags": [
+            "data",
+            "sample",
+            "records",
+            "table",
+            "dashboard"
+          ]
+        },
+        {
+          "id": "23-02",
+          "name": "DummyJSON Products",
+          "url": "https://dummyjson.com/docs/products",
+          "description": "Reference product data for prototype catalogs, lists, and cards.",
+          "tags": [
+            "products",
+            "data",
+            "catalog",
+            "cards",
+            "lists"
+          ]
+        },
+        {
+          "id": "23-03",
+          "name": "DiceBear Playground",
+          "url": "https://www.dicebear.com/playground/",
+          "description": "Generate coordinated avatar samples for account interfaces.",
+          "tags": [
+            "avatars",
+            "users",
+            "accounts",
+            "sample"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "index": 24,
+      "name_en": "Loading, empty, and error states",
+      "name_vi": "Cả lúc đang tải, chưa có dữ liệu và lỗi",
+      "purpose": "Design feedback and recovery for incomplete, absent, or invalid data.",
+      "keywords": [
+        "loading",
+        "skeleton",
+        "empty",
+        "error",
+        "errors",
+        "states",
+        "forms",
+        "recovery",
+        "validation"
+      ],
+      "resources": [
+        {
+          "id": "24-01",
+          "name": "React Loading Skeleton",
+          "url": "https://github.com/dvtng/react-loading-skeleton",
+          "description": "Reference skeleton placeholders while React interface data loads.",
+          "tags": [
+            "react",
+            "loading",
+            "skeleton",
+            "placeholders"
+          ]
+        },
+        {
+          "id": "24-02",
+          "name": "PatternFly Empty State",
+          "url": "https://www.patternfly.org/components/empty-state/",
+          "description": "Inspect empty-state patterns that explain context and offer a next action.",
+          "tags": [
+            "empty",
+            "state",
+            "states",
+            "action",
+            "data"
+          ]
+        },
+        {
+          "id": "24-03",
+          "name": "GOV.UK Error Summary",
+          "url": "https://design-system.service.gov.uk/components/error-summary/",
+          "description": "Reference form-error summaries and links to fields needing correction.",
+          "tags": [
+            "error",
+            "errors",
+            "forms",
+            "summary",
+            "validation",
+            "fields"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "index": 25,
+      "name_en": "Accessibility and responsive checks",
+      "name_vi": "Kiểm tra web trước khi gửi link",
+      "purpose": "Check contrast, usability signals, and layout behavior before sharing the page.",
+      "keywords": [
+        "accessibility",
+        "a11y",
+        "contrast",
+        "responsive",
+        "mobile",
+        "keyboard",
+        "audit",
+        "overflow",
+        "testing"
+      ],
+      "resources": [
+        {
+          "id": "25-01",
+          "name": "WebAIM Contrast Checker",
+          "url": "https://webaim.org/resources/contrastchecker/",
+          "description": "Check contrast between foreground and background colors.",
+          "tags": [
+            "contrast",
+            "accessibility",
+            "color",
+            "text"
+          ]
+        },
+        {
+          "id": "25-02",
+          "name": "WAVE",
+          "url": "https://wave.webaim.org/",
+          "description": "Inspect automated accessibility findings for follow-up manual review.",
+          "tags": [
+            "accessibility",
+            "a11y",
+            "audit",
+            "errors"
+          ]
+        },
+        {
+          "id": "25-03",
+          "name": "Chrome DevTools Device Mode",
+          "url": "https://developer.chrome.com/docs/devtools/device-mode",
+          "description": "Inspect layouts with device emulation and responsive viewport controls.",
+          "tags": [
+            "responsive",
+            "mobile",
+            "viewport",
+            "overflow",
+            "testing"
+          ]
+        }
+      ]
+    }
+  ]
+}

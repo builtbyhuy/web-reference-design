@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="760" viewBox="0 0 800 760">
+  <title>Spatial study</title>
+  <desc>Original architectural illustration of an open mineral room and a circular opening in afternoon light.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2="1"><stop stop-color="#dad4c5"/><stop offset="1" stop-color="#b9b5a8"/></linearGradient>
+    <linearGradient id="wall" x1="0" x2="1"><stop stop-color="#e2d8c5"/><stop offset="1" stop-color="#c5b99f"/></linearGradient>
+    <linearGradient id="inner" x2="0" y2="1"><stop stop-color="#626755"/><stop offset="1" stop-color="#959b83"/></linearGradient>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="2" r=".65" fill="#5d5849" opacity=".13"/><circle cx="6" cy="6" r=".5" fill="#fff" opacity=".24"/></pattern>
+    <mask id="front-opening"><rect width="800" height="760" fill="white"/><ellipse cx="345" cy="390" rx="63" ry="79" fill="black"/></mask>
+    <clipPath id="inner-circle"><ellipse cx="345" cy="390" rx="63" ry="79"/></clipPath>
+  </defs>
+  <rect width="800" height="760" fill="url(#ground)"/>
+  <path d="M0 513 800 446 800 760H0Z" fill="#c6c0af"/>
+  <path d="m149 558 388-156 205 205-208 90Z" fill="#5e6658" opacity=".37"/>
+  <path d="m217 552 309-127 122 150-230 95Z" fill="#697060" opacity=".42"/>
+  <path d="M527 232 634 292 634 570 527 523Z" fill="#8d927c"/>
+  <path d="m222 289 305-57v291l-305 29Z" fill="url(#inner)"/>
+  <path d="m235 461 292-25v87l-305 29Z" fill="#505749"/>
+  <path d="m149 264 111 55v277l-111-54Z" fill="#ab9e82"/>
+  <path d="m260 319 300-60v306l-300 31Z" fill="url(#wall)" mask="url(#front-opening)"/>
+  <g clip-path="url(#inner-circle)"><rect x="280" y="309" width="131" height="164" fill="#5f6957"/><path d="m282 438 111-66v117H282Z" fill="#7d896f"/><path d="m315 308 94 28v59l-94-21Z" fill="#9da68a"/></g>
+  <path d="m149 264 307-73 178 92-308 71Z" fill="#e5dece"/>
+  <path d="m149 264 177 90v17l-177-90Z" fill="#b7a98b"/>
+  <path d="m326 354 308-71v17l-308 71Z" fill="#ccc1aa"/>
+  <path d="m455 191 0 14" stroke="#f4eedf" stroke-width="1.5"/>
+  <path d="m565 516 78 34v33l-78-33Z" fill="#af452c"/>
+  <path d="m565 516 51-8 78 34-51 8Z" fill="#d25c3e"/>
+  <path d="m643 550 51-8v33l-51 8Z" fill="#783a26"/>
+  <path d="m424 575 57-6 82 28-59 8Z" fill="#e6dac1"/>
+  <path d="m424 575 80 30v42l-80-32Z" fill="#c6b799"/>
+  <path d="m504 605 59-8v42l-59 8Z" fill="#a5987c"/>
+  <path d="M121 194V591M117 194H125M117 591H125" fill="none" stroke="#5f6655" stroke-width="1" opacity=".55"/>
+  <path d="m162 630 381-39m-381 35v8m381-47v8" fill="none" stroke="#5f6655" stroke-width="1" opacity=".55"/>
+  <rect width="800" height="760" fill="url(#grain)"/>
+  <circle cx="708" cy="82" r="17" fill="none" stroke="#69705f" opacity=".65"/>
+  <path d="M708 60V104M686 82H730" stroke="#69705f" stroke-width="1" opacity=".65"/>
+</svg>

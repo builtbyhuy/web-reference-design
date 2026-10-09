@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A fictional architecture and interiors studio enquiry page. This demonstration creates a local preview only.">
+  <title>FIELDNOTE — Spaces for everyday life</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#main" aria-label="FIELDNOTE home">FIELDNOTE</a>
+    <nav aria-label="Main"><a href="#approach">Our approach</a><a class="nav-enquiry" href="#enquiry">Start an enquiry <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="discipline">Architecture &amp; interiors</p>
+        <h1 id="hero-title">Spaces for<br>everyday life.</h1>
+        <p class="hero-description">We shape homes, workplaces and places to gather through light, material and careful listening.</p>
+        <a class="text-action" href="#enquiry">Start an enquiry <span aria-hidden="true">↗</span></a>
+        <p class="demo-note">Fictional studio. Local preview only.</p>
+      </div>
+      <figure class="spatial-study">
+        <img src="assets/spatial-study.svg" width="800" height="760" alt="Original architectural illustration: an open mineral-toned room, a circular opening, and long afternoon shadows.">
+        <figcaption><span>A study in light &amp; proportion</span><span>Original illustration</span></figcaption>
+      </figure>
+    </section>
+    <section id="approach" class="approach" aria-labelledby="approach-title">
+      <div class="approach-intro"><h2 id="approach-title">Begin with<br>how you live.</h2><p>A conversation about the space, the people who use it and what needs to change.</p></div>
+      <div class="service-list">
+        <article><h3>Homes</h3><p>Rooms that work around your daily rituals.</p></article>
+        <article><h3>Workplaces</h3><p>Space to focus, collaborate and feel at ease.</p></article>
+        <article><h3>Places to gather</h3><p>Welcoming interiors for shared experiences.</p></article>
+      </div>
+    </section>
+    <section id="enquiry" class="enquiry" aria-labelledby="enquiry-title">
+      <div class="enquiry-intro"><p class="section-note">Start a conversation</p><h2 id="enquiry-title">Tell us about<br>your space.</h2><p>A few details are enough to begin. You can review and edit them here.</p><p class="preview-notice">This demo creates a local preview.<br>Nothing is sent.</p></div>
+      <div class="enquiry-workspace">
+        <div id="error-summary" class="error-summary" tabindex="-1" role="region" aria-labelledby="error-heading" hidden><h3 id="error-heading">Check your enquiry</h3><ul id="error-list"></ul></div>
+        <form id="enquiry-form" novalidate>
+          <p class="form-instruction">All fields are required.</p>
+          <div class="field-pair">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required aria-describedby="name-error"><p class="field-error" id="name-error" hidden></p></div>
+            <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><p class="field-error" id="email-error" hidden></p></div>
+          </div>
+          <div class="field"><label for="project">Project type</label><select id="project" name="project" required aria-describedby="project-error"><option value="">Choose a project type</option><option value="Homes">Homes</option><option value="Workplaces">Workplaces</option><option value="Places to gather">Places to gather</option></select><p class="field-error" id="project-error" hidden></p></div>
+          <div class="field"><label for="notes">What would you like to change?</label><textarea id="notes" name="notes" rows="4" required aria-describedby="notes-error"></textarea><p class="field-error" id="notes-error" hidden></p></div>
+          <button class="button" id="preview-button" type="submit">Preview enquiry <span aria-hidden="true">↗</span></button>
+        </form>
+        <section id="enquiry-preview" class="enquiry-preview" tabindex="-1" aria-labelledby="preview-title" hidden><p class="section-note">Ready to review</p><h3 id="preview-title">Your enquiry preview</h3><p class="preview-notice">Nothing has been sent.</p><dl id="preview-details"></dl><button class="button" id="edit-enquiry" type="button">Edit details</button></section>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span class="footer-mark">FIELDNOTE</span><p>Fictional studio / Local demonstration</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>

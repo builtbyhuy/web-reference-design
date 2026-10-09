@@ -1,0 +1,249 @@
+{
+  "started": "2026-10-09T03:24:40.609Z",
+  "checks": [
+    "Local repair photo loaded at natural width 1600px",
+    "Keyboard first Tab shows skip link; Enter focuses main",
+    "No page horizontal overflow at 1440px",
+    "No page horizontal overflow at 768px",
+    "No page horizontal overflow at 390px",
+    "No page horizontal overflow at 320px",
+    "Service comparison Choose action prefills service and focuses service select",
+    "Empty form errors focus summary; links focus exact fields; prefilled service preserved",
+    "Malformed email and past date yield specific errors and preserve name",
+    "Closed Sunday date rejected",
+    "Valid form produces honest local preview; safely displays literal notes and moves focus",
+    "Edit restores form, preserves submitted values, and focuses name",
+    "Reduced motion disables smooth scrolling and transitions",
+    "No external request and no web-storage write during local appointment flow",
+    "No JavaScript page errors",
+    "Keyboard traverses name, email, service, native date, notes and submit; visible submit focus; Enter submits and error-link Enter returns to name"
+  ],
+  "errors": [],
+  "scans": [
+    {
+      "state": "desktop-initial",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-link[href$=\"#services\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "figcaption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".photo-label"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".text-link[href=\"#\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "mobile-initial",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-link[href$=\"#services\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "figcaption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".photo-label"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".text-link[href=\"#\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "mobile-errors",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-link[href$=\"#services\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "figcaption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".photo-label"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".text-link[href=\"#\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "mobile-preview",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-link[href$=\"#services\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "figcaption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".photo-label"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".success-mark"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".text-link[href=\"#\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state": "desktop-errors",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".text-link[href$=\"#services\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                "figcaption > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".photo-label"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".text-link[href=\"#\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "requests": [],
+  "browser": {
+    "version": "154.0.4258.62",
+    "channel": "msedge",
+    "viewport": "1440x960, 768x1024, 390x844, 320x760",
+    "reducedMotion": "reduce"
+  },
+  "status": "passed",
+  "finished": "2026-10-09T03:24:44.433Z",
+  "manual_review": {
+    "palette_contrast": {
+      "ink_on_paper": 13.34,
+      "muted_on_paper": 5.8,
+      "ink_on_lime": 10.67,
+      "error_on_paper": 6.37
+    },
+    "caption_background": [
+      {
+        "width": 1440,
+        "caption": "caption",
+        "minimum_contrast_over_entire_text_box": 11.21,
+        "required_ratio": 3
+      },
+      {
+        "width": 1440,
+        "caption": "photo-label",
+        "minimum_contrast_over_entire_text_box": 13.53,
+        "required_ratio": 4.5
+      },
+      {
+        "width": 390,
+        "caption": "caption",
+        "minimum_contrast_over_entire_text_box": 8.52,
+        "required_ratio": 3
+      },
+      {
+        "width": 390,
+        "caption": "photo-label",
+        "minimum_contrast_over_entire_text_box": 10.0,
+        "required_ratio": 4.5
+      }
+    ],
+    "review": "Viewed desktop hero, service comparison, appointment form, complete desktop/mobile pages, phone error and preview. Replaced unsupported generic ARIA naming with semantic section/region; rechecked 5 axe states. Remaining incomplete items are decorative glyphs and image/pseudo-element contrast; palette and image-background measurements above supplement the visible inspection. No screen-reader or real-device certification claimed."
+  }
+}
