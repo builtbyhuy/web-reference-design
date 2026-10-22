@@ -6,6 +6,15 @@ Improve an existing page without losing its identity or working behavior. This p
 
 [Live examples](https://builtbyhuy.github.io/web-reference-design/) · [Install](#install) · [Validation](VALIDATION.md) · [MIT license](LICENSE)
 
+## First use: your own page
+
+1. [Install the skill](#install) in your coding agent's skills folder.
+2. Open your project. Use the [design-brief builder](https://builtbyhuy.github.io/web-reference-design/brief/) to describe one page, its audience, primary action, desired change and what must stay. The builder runs in your browser with no API, account or upload; a reload discards its contents.
+3. Review the generated brief, then copy it into your agent or download `design-brief.md`. Add the file to your project if useful. The editable brief keeps the task and checks together instead of requiring you to reconstruct a generic prompt each time.
+4. Let the agent inspect, implement and check the actual page. Open the result, try its primary action and ask for a specific adjustment. The builder does not generate or verify a website itself.
+
+For a local preview, serve this repository with `node tests/server.cjs` and open `http://127.0.0.1:4180/brief/`. The [builder guide and scope](brief/README.md) explain its behavior and checks. The existing FIELDNOTE and Spoke examples remain available below.
+
 ![FIELDNOTE: original worked example of refining an existing page](examples/fieldnote/evidence/after-desktop.png)
 
 ## Start with one page

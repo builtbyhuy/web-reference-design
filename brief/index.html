@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Make a design brief · Web Reference Design</title>
+  <meta name="description" content="Turn a page, audience and desired change into an editable brief for your coding agent. Runs in your browser; no account or API.">
+  <link rel="icon" href="data:,"><link rel="stylesheet" href="../showcase.css"><link rel="stylesheet" href="brief.css">
+  <script defer src="core.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to brief builder</a>
+  <header class="site-header wrap"><a class="brand" href="../"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Web Reference<br>Design</span></a><nav aria-label="Main navigation"><a href="../#install">Install the skill</a><a href="../examples/fieldnote/">Live example <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main" class="wrap" tabindex="-1">
+    <section class="brief-intro" aria-labelledby="title"><div><p class="intro-label">A useful starting point for your coding agent</p><h1 id="title">A clearer brief.<br>A more intentional page.</h1></div><div class="intro-aside"><p>Describe one page and the change you need. Get a brief that keeps your audience, working behavior and checks in view.</p><p class="privacy-note">Runs in this browser. No API, account or upload. Nothing is saved after a reload.</p></div></section>
+    <noscript><p class="notice">This builder needs JavaScript. You can still <a href="../#install">copy the starter brief</a> and edit it yourself.</p></noscript>
+    <div class="composer">
+      <section class="answers" aria-labelledby="answers-title"><div class="section-top"><h2 id="answers-title">Describe the change</h2><button id="example" class="quiet" type="button">Use a worked example</button></div><p class="section-help">Fields marked * are required. Use a public page or a local project path; this tool does not open it.</p>
+        <form id="brief-form" novalidate>
+          <div id="errors" class="error-summary" tabindex="-1" hidden><h3>Check your brief</h3><ul id="error-list"></ul></div>
+          <label for="task">What kind of work?</label><select id="task" name="task"><option value="refine">Refine an existing page</option><option value="repair">Repair a specific interface problem</option><option value="new">Build one new page</option></select>
+          <label for="page">Which page or project? <span aria-hidden="true">*</span></label><p id="page-help" class="field-help">A URL, local path or specific page name. Add the stack if you know it.</p><input id="page" name="page" required maxlength="600" aria-describedby="page-help page-error" placeholder="e.g. Our Vue pricing page at /pricing"><p id="page-error" class="field-error" hidden></p>
+          <label for="audience">Who is using it? <span aria-hidden="true">*</span></label><input id="audience" name="audience" required maxlength="600" aria-describedby="audience-error" placeholder="e.g. Small teams comparing monthly plans"><p id="audience-error" class="field-error" hidden></p>
+          <label for="action">What should they be able to do? <span aria-hidden="true">*</span></label><input id="action" name="action" required maxlength="600" aria-describedby="action-error" placeholder="e.g. Choose a plan and understand the total"><p id="action-error" class="field-error" hidden></p>
+          <label for="change">What needs to improve? <span aria-hidden="true">*</span></label><textarea id="change" name="change" required rows="3" maxlength="2400" aria-describedby="change-error" placeholder="Describe the layout, content or interaction that needs work."></textarea><p id="change-error" class="field-error" hidden></p>
+          <label for="preserve">What must stay?</label><textarea id="preserve" name="preserve" rows="3" maxlength="1800" placeholder="Brand, real copy, pricing, stack, form fields, existing behavior…"></textarea>
+          <label for="reference">A reference to inspect <span class="optional">optional</span></label><p id="reference-help" class="field-help">One http(s) link. Inspiration does not grant permission to reuse its artwork or code.</p><input id="reference" name="reference" type="url" maxlength="1200" aria-describedby="reference-help reference-error" placeholder="https://…"><p id="reference-error" class="field-error" hidden></p>
+          <div class="form-action"><button id="generate" class="button" type="submit">Generate my brief <span aria-hidden="true">↗</span></button><p>One page at a time. You can edit the result.</p></div>
+        </form>
+      </section>
+      <section class="result" aria-labelledby="result-title"><div class="result-heading"><p class="section-label">Your handoff</p><h2 id="result-title" tabindex="-1">Ready for your project.</h2><p>Install the skill, then paste this brief into your coding agent with the project open.</p></div><div class="result-empty" id="empty"><span aria-hidden="true">↗</span><p>Your brief will appear here.</p><p>Start with your own page, or load the fictional FIELDNOTE example.</p></div><div id="output-panel" hidden><label class="output-label" for="output">Edit your brief</label><textarea id="output" rows="23" spellcheck="false" aria-describedby="output-help"></textarea><p id="output-help" class="field-help">Your edits are included when you copy or download. Generating again replaces this preview.</p><p id="dirty" class="notice" hidden>Your answers changed. Generate again to include them, or keep editing this brief.</p><div class="output-actions"><button id="copy" type="button" class="button">Copy brief</button><button id="download" type="button" class="button button-outline">Download .md <span aria-hidden="true">↓</span></button></div></div><p id="status" role="status" aria-live="polite"></p><div class="next-step"><h3>What happens next?</h3><p>The agent inspects your project and suitable references, implements the change, then checks the actual page. This builder organizes your request; it does not design, inspect or test a website.</p><a href="../#install" class="text-link">Get the free skill <span aria-hidden="true">↗</span></a></div></section>
+    </div>
+  </main>
+  <footer class="wrap"><div><a class="footer-brand" href="../">Web Reference Design</a><p>Free &amp; open source · Original code: MIT · Manrope: SIL OFL</p></div><a href="README.md">How this builder works</a></footer>
+</body></html>

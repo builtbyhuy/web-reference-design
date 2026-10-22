@@ -1,0 +1,66 @@
+{
+  "checkedDate": "2026-10-22",
+  "release": "v1.1.0",
+  "archiveSha256": "8cb67f9eddf6ae17ab4d45149fffcc7a263566940cc0b83e6861c195e24ba4bb",
+  "expectedFiles": 9,
+  "actualFiles": 9,
+  "files": [
+    {
+      "file": "web-reference-design/agents/openai.yaml",
+      "bytes": 309,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/LICENSE",
+      "bytes": 1068,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/references/catalog.json",
+      "bytes": 39081,
+      "byteIdenticalToLocal": false,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/references/library-resolution.md",
+      "bytes": 1566,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/references/reference-to-implementation.md",
+      "bytes": 3083,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/references/render-review.md",
+      "bytes": 3130,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/references/resource-catalog.md",
+      "bytes": 16186,
+      "byteIdenticalToLocal": false,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/scripts/find_references.py",
+      "bytes": 14462,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    },
+    {
+      "file": "web-reference-design/SKILL.md",
+      "bytes": 8381,
+      "byteIdenticalToLocal": true,
+      "sameTextAfterCRLFNormalization": true
+    }
+  ],
+  "missingRelativeMarkdownLinks": [],
+  "relocatedHelper": "PASS: explicit absent user library selected bundled catalog; category 24 returned GOV.UK error summary and two other candidates. No dependency installation.",
+  "scope": "Fresh public release download and relocation check; not agent-quality or adoption proof."
+}

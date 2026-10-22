@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "name": "Required job fields expose native required semantics",
+      "status": "passed"
+    },
+    {
+      "name": "Landing exposes the builder on narrow screens",
+      "status": "passed"
+    },
+    {
+      "name": "Required-field errors focus the summary, link to inputs and preserve values",
+      "status": "passed"
+    },
+    {
+      "name": "Worked example is editable and generates a complete scoped handoff",
+      "status": "passed"
+    },
+    {
+      "name": "Replacing answers requires confirmation; cancel and accept both preserve edited output",
+      "status": "passed"
+    },
+    {
+      "name": "Answers are literal text; hostile markup does not create elements or run",
+      "status": "passed"
+    },
+    {
+      "name": "Changing answers marks the preview stale without losing manual edits",
+      "status": "passed"
+    },
+    {
+      "name": "Copy reads the actual editable output into the browser clipboard",
+      "status": "passed"
+    },
+    {
+      "name": "A real denied clipboard selects the text and explains manual recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Markdown download contains the current edits and UTF-8 text exactly",
+      "status": "passed"
+    },
+    {
+      "name": "Empty edited output cannot be copied or downloaded as a claimed success",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard navigation and focus remain visible",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive composition and practical form controls at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive composition and practical form controls at 1024px",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive composition and practical form controls at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive composition and practical form controls at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "Responsive composition and practical form controls at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "No answers enter browser storage and no external requests occur during the flow",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "limitations": [
+    "Chromium emulation; no physical device or screen-reader session.",
+    "No model or comparative design-quality benchmark."
+  ],
+  "environment": {
+    "node": "v24.19.0",
+    "browser": "155.0.8059.80"
+  },
+  "passed": 18,
+  "failed": 0,
+  "status": "passed"
+}
